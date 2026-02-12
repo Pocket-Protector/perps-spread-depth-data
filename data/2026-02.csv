@@ -106,3 +106,708 @@ ts_minute_utc,exchange,ticker,symbol,samples_total,samples_success,book_timestam
 2026-02-12T21:15:00Z,asterdex,ZEC,ZECUSDT,1,1,1770930950002,2026-02-12T21:15:00Z,229.715,229.71,229.72,0.01,0.435322,0.22,1.88,6.59,1471.64,0.22,1.68,6.05,4664.99,true,true,true,false,true,true,true,false,933577.65,836350.76,false,,,false,
 2026-02-12T21:15:00Z,binance,ZEC,ZECUSDT,1,1,1770930949706,2026-02-12T21:15:00Z,229.745,229.74,229.75,0.01,0.435265,0.22,1.86,6.7,28.32,0.22,1.44,5.44,26.2,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
 2026-02-12T21:15:00Z,bybit,ZEC,ZECUSDT,1,1,1770930949696,2026-02-12T21:15:00Z,229.765,229.76,229.77,0.01,0.435227,0.22,2.58,6.99,43.1,1.72,3.29,9.46,52.33,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:58:00Z,hyperliquid,BTC,BTC,1,1,,2026-02-12T21:58:00Z,65788.5,65788,65789,1,0.152002,0.08,0.24,0.55,2.12,0.08,0.08,0.08,0.08,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T21:58:00Z,dydx,BTC,BTC-USD,1,1,,2026-02-12T21:58:00Z,65770.5,65763,65778,15,2.280658,1.14,1.14,2.16,10.49,1.14,1.77,2.47,5.74,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:58:00Z,lighter,BTC,BTC,1,1,,2026-02-12T21:58:00Z,65773.35,65773.3,65773.4,0.1,0.015204,0.68,1,1.34,2.3,0.01,0.01,0.33,1.05,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:58:00Z,asterdex,BTC,BTCUSDT,1,1,1770933539591,2026-02-12T21:58:00Z,65769.95,65769.9,65770,0.1,0.015205,0.01,0.01,0.44,2.58,0.01,0.01,0.01,0.26,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:58:00Z,binance,BTC,BTCUSDT,1,0,,2026-02-12T21:58:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T21:58:00Z,bybit,BTC,BTCUSDT,1,0,,2026-02-12T21:58:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T21:58:00Z,hyperliquid,ETH,ETH,1,1,,2026-02-12T21:58:00Z,1922.25,1922.2,1922.3,0.1,0.520224,0.26,0.26,0.74,1.97,0.26,0.26,0.26,0.49,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T21:58:00Z,dydx,ETH,ETH-USD,1,1,,2026-02-12T21:58:00Z,1922.35,1922.3,1922.4,0.1,0.520197,0.26,1.21,3.38,7.13,0.26,1.26,3.07,9.08,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:58:00Z,lighter,ETH,ETH,1,1,,2026-02-12T21:58:00Z,1921.895,1921.86,1921.93,0.07,0.364224,0.18,0.34,1.01,2.26,0.18,0.35,0.84,3.5,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:58:00Z,asterdex,ETH,ETHUSDT,1,1,1770933539597,2026-02-12T21:58:00Z,1921.75,1921.7,1921.8,0.1,0.520359,1.72,1.81,1.82,3.83,0.26,0.26,0.26,1.04,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:58:00Z,binance,ETH,ETHUSDT,1,0,,2026-02-12T21:58:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T21:58:00Z,bybit,ETH,ETHUSDT,1,0,,2026-02-12T21:58:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T21:58:00Z,hyperliquid,SOL,SOL,1,1,,2026-02-12T21:58:00Z,77.3175,77.317,77.318,0.001,0.129337,0.06,0.28,1.36,4.72,0.06,0.06,0.15,3.63,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T21:58:00Z,dydx,SOL,SOL-USD,1,1,,2026-02-12T21:58:00Z,77.325,77.32,77.33,0.01,1.293243,0.65,3.4,18.58,42.92,0.65,2.4,3.15,26.41,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:58:00Z,lighter,SOL,SOL,1,1,,2026-02-12T21:58:00Z,77.328,77.323,77.333,0.01,1.293193,0.65,0.82,1.69,4.3,0.65,0.65,1.09,3.3,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:58:00Z,asterdex,SOL,SOLUSDT,1,1,1770933539599,2026-02-12T21:58:00Z,77.315,77.31,77.32,0.01,1.29341,0.65,0.65,0.65,4.66,0.65,0.65,1.01,5.84,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:58:00Z,binance,SOL,SOLUSDT,1,0,,2026-02-12T21:58:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T21:58:00Z,bybit,SOL,SOLUSDT,1,0,,2026-02-12T21:58:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T21:58:00Z,hyperliquid,XRP,XRP,1,1,,2026-02-12T21:58:00Z,1.35075,1.3507,1.3508,0.0001,0.740329,0.79,1.56,2.76,8.88,0.37,0.37,1.19,10.94,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T21:58:00Z,dydx,XRP,XRP-USD,1,1,,2026-02-12T21:58:00Z,1.3497,1.3494,1.35,0.0006,4.445432,6.01,10.95,14.9,58.99,2.25,3.17,5.56,9.97,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:58:00Z,lighter,XRP,XRP,1,1,,2026-02-12T21:58:00Z,1.34948,1.349209,1.34975,0.000541,4.008952,2,2.28,5.11,14.58,2.01,2.13,4.79,13.28,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:58:00Z,asterdex,XRP,XRPUSDT,1,1,1770933539598,2026-02-12T21:58:00Z,1.35075,1.3507,1.3508,0.0001,0.740329,0.37,0.56,1.94,12.85,0.37,0.37,0.71,8.39,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:58:00Z,binance,XRP,XRPUSDT,1,0,,2026-02-12T21:58:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T21:58:00Z,bybit,XRP,XRPUSDT,1,0,,2026-02-12T21:58:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T21:58:00Z,hyperliquid,HYPE,HYPE,1,1,,2026-02-12T21:58:00Z,29.7965,29.796,29.797,0.001,0.33561,0.17,0.3,3.33,21.88,0.17,0.17,7.5,21.59,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,4,4]",false,
+2026-02-12T21:58:00Z,dydx,HYPE,HYPE-USD,1,1,,2026-02-12T21:58:00Z,29.8445,29.84,29.849,0.009,3.015631,12.42,23.08,72.62,342.53,4.82,14.57,45.72,178.75,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:58:00Z,lighter,HYPE,HYPE,1,1,,2026-02-12T21:58:00Z,29.79045,29.7853,29.7956,0.0103,3.457484,1.73,1.94,7.32,20.23,1.73,1.99,3.36,15.66,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:58:00Z,asterdex,HYPE,HYPEUSDT,1,1,1770933539596,2026-02-12T21:58:00Z,29.8085,29.808,29.809,0.001,0.335475,0.17,0.17,1.22,136.17,1.33,2.41,5.16,328.4,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:58:00Z,binance,HYPE,HYPEUSDT,1,0,,2026-02-12T21:58:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T21:58:00Z,bybit,HYPE,HYPEUSDT,1,0,,2026-02-12T21:58:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T21:58:00Z,hyperliquid,BONK,kBONK,1,1,,2026-02-12T21:58:00Z,0.005972,0.005971,0.005973,0.000002,3.348962,1.67,3.49,10.15,88.16,1.67,4.1,12.85,105.01,true,true,true,true,true,true,true,true,1000000,1000000,true,3,"[5,5,5,3]",false,
+2026-02-12T21:58:00Z,dydx,BONK,BONK-USD,1,1,,2026-02-12T21:58:00Z,0.000006,0.000006,0.000006,0,0,-34.98,-20.34,-9.59,233.48,66.67,66.67,75.47,351.97,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:58:00Z,lighter,BONK,1000BONK,1,1,,2026-02-12T21:58:00Z,0.005968,0.005966,0.00597,0.000004,6.702413,3.35,6.13,19.04,74.17,3.35,4.4,15.48,52.75,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:58:00Z,asterdex,BONK,1000BONKUSDT,1,1,1770933539600,2026-02-12T21:58:00Z,0.005973,0.005971,0.005974,0.000003,5.022602,1.67,3.72,30.92,30.92,3.35,7.59,269.61,269.61,true,true,false,false,true,true,false,false,26153.08,25981.35,false,,,false,
+2026-02-12T21:58:00Z,binance,BONK,1000BONKUSDT,1,0,,2026-02-12T21:58:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T21:58:00Z,bybit,BONK,1000BONKUSDT,1,0,,2026-02-12T21:58:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T21:58:00Z,hyperliquid,PAXG,PAXG,1,1,,2026-02-12T21:58:00Z,4930.95,4930.9,4931,0.1,0.202801,0.1,0.1,1.75,9.26,0.16,0.85,1.47,7.13,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T21:58:00Z,dydx,PAXG,PAXG-USD,1,1,,2026-02-12T21:58:00Z,4926,4922,4930,8,16.240357,8.12,9.14,21.92,872.62,9.02,10.83,23.83,1048.72,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:58:00Z,lighter,PAXG,PAXG,1,1,,2026-02-12T21:58:00Z,4927.95,4927.5,4928.4,0.9,1.826317,0.91,1.06,2.78,20.56,0.91,1.99,6.07,19.82,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:58:00Z,binance,PAXG,PAXGUSDT,1,0,,2026-02-12T21:58:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T21:58:00Z,bybit,PAXG,PAXGUSDT,1,0,,2026-02-12T21:58:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T21:58:00Z,hyperliquid,ZEC,ZEC,1,1,,2026-02-12T21:58:00Z,229.535,229.51,229.56,0.05,2.178317,1.53,2.91,7.23,26.12,1.09,1.57,4.48,31.39,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T21:58:00Z,dydx,ZEC,ZEC-USD,1,1,,2026-02-12T21:58:00Z,229.795,229.61,229.98,0.37,16.101308,8.05,9.14,21.88,648.39,8.05,9.15,21.9,619.84,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:58:00Z,lighter,ZEC,ZEC,1,1,,2026-02-12T21:58:00Z,229.5045,229.445,229.564,0.119,5.185084,2.59,3.5,8.27,40.55,2.59,3.71,10.78,44.11,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:58:00Z,asterdex,ZEC,ZECUSDT,1,1,1770933539601,2026-02-12T21:58:00Z,229.485,229.48,229.49,0.01,0.435758,0.22,2.44,6.28,1481.51,0.46,2.41,7.66,4731.68,true,true,true,false,true,true,true,false,929938.94,813150.18,false,,,false,
+2026-02-12T21:58:00Z,binance,ZEC,ZECUSDT,1,0,,2026-02-12T21:58:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T21:58:00Z,bybit,ZEC,ZECUSDT,1,0,,2026-02-12T21:58:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T21:59:00Z,hyperliquid,BTC,BTC,1,1,,2026-02-12T21:59:00Z,65824.5,65824,65825,1,0.151919,1.03,1.79,2.48,3.73,0.08,0.08,0.08,0.11,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T21:59:00Z,dydx,BTC,BTC-USD,1,1,,2026-02-12T21:59:00Z,65804.5,65793,65816,23,3.495202,1.75,1.93,3.92,8.76,1.75,1.8,2.79,8.88,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:59:00Z,lighter,BTC,BTC,1,0,,2026-02-12T21:59:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 429
+2026-02-12T21:59:00Z,asterdex,BTC,BTCUSDT,1,1,1770933599568,2026-02-12T21:59:00Z,65819.15,65819.1,65819.2,0.1,0.015193,0.01,0.01,0.01,0.59,0.01,0.01,0.31,1.53,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:59:00Z,binance,BTC,BTCUSDT,1,0,,2026-02-12T21:59:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T21:59:00Z,bybit,BTC,BTCUSDT,1,0,,2026-02-12T21:59:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T21:59:00Z,hyperliquid,ETH,ETH,1,1,,2026-02-12T21:59:00Z,1922.45,1922.4,1922.5,0.1,0.52017,0.26,0.68,1.66,3.56,0.26,0.26,0.26,0.65,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T21:59:00Z,dydx,ETH,ETH-USD,1,1,,2026-02-12T21:59:00Z,1922.55,1922.5,1922.6,0.1,0.520143,0.26,1.19,2.56,7.09,0.26,1.4,3.36,8.64,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:59:00Z,lighter,ETH,ETH,1,1,,2026-02-12T21:59:00Z,1921.645,1921.59,1921.7,0.11,0.572426,0.41,0.84,1.25,2.89,0.29,0.29,1.51,3.42,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:59:00Z,asterdex,ETH,ETHUSDT,1,1,1770933600381,2026-02-12T21:59:00Z,1922.25,1922.2,1922.3,0.1,0.520224,0.26,0.26,0.26,2.53,0.26,0.26,0.26,1.83,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:59:00Z,binance,ETH,ETHUSDT,1,0,,2026-02-12T21:59:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T21:59:00Z,bybit,ETH,ETHUSDT,1,0,,2026-02-12T21:59:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T21:59:00Z,hyperliquid,SOL,SOL,1,1,,2026-02-12T21:59:00Z,77.2815,77.281,77.282,0.001,0.129397,1.73,1.99,3.47,6.63,0.06,0.06,0.06,2.41,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T21:59:00Z,dydx,SOL,SOL-USD,1,1,,2026-02-12T21:59:00Z,77.295,77.29,77.3,0.01,1.293745,0.65,3.39,12.26,37.35,0.65,1.71,4.96,8.66,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:59:00Z,lighter,SOL,SOL,1,0,,2026-02-12T21:59:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 429
+2026-02-12T21:59:00Z,asterdex,SOL,SOLUSDT,1,1,1770933600414,2026-02-12T21:59:00Z,77.285,77.28,77.29,0.01,1.293912,0.65,0.65,0.65,4.75,0.65,0.65,1.81,7.47,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:59:00Z,binance,SOL,SOLUSDT,1,0,,2026-02-12T21:59:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T21:59:00Z,bybit,SOL,SOLUSDT,1,0,,2026-02-12T21:59:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T21:59:00Z,hyperliquid,XRP,XRP,1,1,,2026-02-12T21:59:00Z,1.35115,1.3511,1.3512,0.0001,0.74011,0.37,1.23,4.17,12.09,0.37,0.37,0.84,15.65,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T21:59:00Z,dydx,XRP,XRP-USD,1,1,,2026-02-12T21:59:00Z,1.3503,1.3501,1.3505,0.0004,2.962305,1.48,5.12,8.17,50.13,1.48,4.07,5.96,8.91,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:59:00Z,lighter,XRP,XRP,1,0,,2026-02-12T21:59:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 429
+2026-02-12T21:59:00Z,asterdex,XRP,XRPUSDT,1,1,1770933600329,2026-02-12T21:59:00Z,1.35115,1.3511,1.3512,0.0001,0.74011,0.37,0.98,2.5,13.93,0.37,0.37,0.92,9.26,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:59:00Z,binance,XRP,XRPUSDT,1,0,,2026-02-12T21:59:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T21:59:00Z,bybit,XRP,XRPUSDT,1,0,,2026-02-12T21:59:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T21:59:00Z,hyperliquid,HYPE,HYPE,1,1,,2026-02-12T21:59:00Z,29.8085,29.808,29.809,0.001,0.335475,0.17,1.88,4.89,22.46,0.23,1.15,4.94,22.19,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,4,4]",false,
+2026-02-12T21:59:00Z,dydx,HYPE,HYPE-USD,1,1,,2026-02-12T21:59:00Z,29.8595,29.84,29.879,0.039,13.06117,7.26,13.66,81.23,754.09,8.2,17.01,66.87,216.4,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:59:00Z,lighter,HYPE,HYPE,1,0,,2026-02-12T21:59:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 429
+2026-02-12T21:59:00Z,asterdex,HYPE,HYPEUSDT,1,1,1770933600425,2026-02-12T21:59:00Z,29.8205,29.82,29.821,0.001,0.33534,0.17,0.42,2.2,212.99,0.81,2.14,4.25,221.71,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:59:00Z,binance,HYPE,HYPEUSDT,1,0,,2026-02-12T21:59:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T21:59:00Z,bybit,HYPE,HYPEUSDT,1,0,,2026-02-12T21:59:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T21:59:00Z,hyperliquid,BONK,kBONK,1,1,,2026-02-12T21:59:00Z,0.005972,0.005971,0.005973,0.000002,3.348962,1.67,3.84,11.27,99.01,1.67,3.69,11.4,110.18,true,true,true,true,true,true,true,true,1000000,1000000,true,3,"[5,5,5,3]",false,
+2026-02-12T21:59:00Z,dydx,BONK,BONK-USD,1,1,,2026-02-12T21:59:00Z,0.000006,0.000006,0.000006,0,0,-36.66,-18.67,-16.87,151.47,66.67,66.67,75.47,248.53,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:59:00Z,lighter,BONK,1000BONK,1,0,,2026-02-12T21:59:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 429
+2026-02-12T21:59:00Z,asterdex,BONK,1000BONKUSDT,1,1,1770933600664,2026-02-12T21:59:00Z,0.005973,0.005971,0.005974,0.000003,5.022602,1.67,3.74,33.54,33.54,3.35,7.15,267.09,267.09,true,true,false,false,true,true,false,false,26118.69,26224.79,false,,,false,
+2026-02-12T21:59:00Z,binance,BONK,1000BONKUSDT,1,0,,2026-02-12T21:59:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T21:59:00Z,bybit,BONK,1000BONKUSDT,1,0,,2026-02-12T21:59:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T21:59:00Z,hyperliquid,PAXG,PAXG,1,1,,2026-02-12T21:59:00Z,4931.25,4931,4931.5,0.5,1.013942,0.51,0.69,2.54,8.97,0.51,1.31,3.12,10.61,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T21:59:00Z,dydx,PAXG,PAXG-USD,1,1,,2026-02-12T21:59:00Z,4926,4922,4930,8,16.240357,8.12,9.14,21.92,845.05,9.02,10.83,23.83,815.06,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:59:00Z,lighter,PAXG,PAXG,1,1,,2026-02-12T21:59:00Z,4927.89,4927.38,4928.4,1.02,2.069851,1.31,1.32,3.32,27.92,1.04,3.21,6.37,28.35,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:59:00Z,binance,PAXG,PAXGUSDT,1,0,,2026-02-12T21:59:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T21:59:00Z,bybit,PAXG,PAXGUSDT,1,0,,2026-02-12T21:59:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T21:59:00Z,hyperliquid,ZEC,ZEC,1,1,,2026-02-12T21:59:00Z,229.725,229.7,229.75,0.05,2.176515,1.7,3.78,8.38,26.29,1.22,2.18,4.29,32.52,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,4,4]",false,
+2026-02-12T21:59:00Z,dydx,ZEC,ZEC-USD,1,1,,2026-02-12T21:59:00Z,229.94,229.75,230.13,0.38,16.52605,8.26,9.25,21.93,588.5,8.26,9.25,21.68,619.24,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T21:59:00Z,lighter,ZEC,ZEC,1,0,,2026-02-12T21:59:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 429
+2026-02-12T21:59:00Z,asterdex,ZEC,ZECUSDT,1,1,1770933600313,2026-02-12T21:59:00Z,229.675,229.67,229.68,0.01,0.435398,0.22,0.38,5.49,1674.46,0.7,2.75,7.73,4969.9,true,true,true,false,true,true,true,false,803548.97,735621.56,false,,,false,
+2026-02-12T21:59:00Z,binance,ZEC,ZECUSDT,1,0,,2026-02-12T21:59:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T21:59:00Z,bybit,ZEC,ZECUSDT,1,0,,2026-02-12T21:59:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:00:00Z,hyperliquid,BTC,BTC,1,1,,2026-02-12T22:00:00Z,65776.5,65776,65777,1,0.15203,0.08,0.08,0.08,1.75,0.08,0.08,0.08,0.29,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T22:00:00Z,dydx,BTC,BTC-USD,1,1,,2026-02-12T22:00:00Z,65760,65757,65763,6,0.912409,0.46,0.57,1.57,6.92,0.46,0.54,2.18,6.49,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:00:00Z,lighter,BTC,BTC,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 503
+2026-02-12T22:00:00Z,asterdex,BTC,BTCUSDT,1,1,1770933660101,2026-02-12T22:00:00Z,65766.25,65766.2,65766.3,0.1,0.015205,0.01,0.01,0.01,0.31,0.01,0.01,0.43,1.21,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:00:00Z,binance,BTC,BTCUSDT,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:00:00Z,bybit,BTC,BTCUSDT,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:00:00Z,hyperliquid,ETH,ETH,1,1,,2026-02-12T22:00:00Z,1921.15,1921.1,1921.2,0.1,0.520522,0.26,0.26,0.26,1.66,0.26,0.26,0.26,0.65,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T22:00:00Z,dydx,ETH,ETH-USD,1,1,,2026-02-12T22:00:00Z,1921.05,1921,1921.1,0.1,0.520549,0.26,1.04,3.31,10.24,0.26,0.29,2.55,7.27,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:00:00Z,lighter,ETH,ETH,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 503
+2026-02-12T22:00:00Z,asterdex,ETH,ETHUSDT,1,1,1770933660213,2026-02-12T22:00:00Z,1921.05,1921,1921.1,0.1,0.520549,0.26,0.26,0.26,1.84,0.74,0.78,1.3,3.06,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:00:00Z,binance,ETH,ETHUSDT,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:00:00Z,bybit,ETH,ETHUSDT,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:00:00Z,hyperliquid,SOL,SOL,1,1,,2026-02-12T22:00:00Z,77.2055,77.205,77.206,0.001,0.129524,0.06,0.06,0.09,3.55,0.06,0.08,1.08,4.91,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:00:00Z,dydx,SOL,SOL-USD,1,1,,2026-02-12T22:00:00Z,77.205,77.2,77.21,0.01,1.295253,0.65,2.9,19.69,51.42,1.08,2.23,4.23,8.12,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:00:00Z,lighter,SOL,SOL,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 503
+2026-02-12T22:00:00Z,asterdex,SOL,SOLUSDT,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 429
+2026-02-12T22:00:00Z,binance,SOL,SOLUSDT,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:00:00Z,bybit,SOL,SOLUSDT,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:00:00Z,hyperliquid,XRP,XRP,1,1,,2026-02-12T22:00:00Z,1.35025,1.3502,1.3503,0.0001,0.740604,0.37,1,2.18,9.98,0.37,0.37,2.31,8.72,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:00:00Z,dydx,XRP,XRP-USD,1,1,,2026-02-12T22:00:00Z,1.3493,1.3491,1.3495,0.0004,2.9645,1.49,9.03,13.54,58.8,1.48,3.81,6.32,10.86,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:00:00Z,lighter,XRP,XRP,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 503
+2026-02-12T22:00:00Z,asterdex,XRP,XRPUSDT,1,1,1770933660147,2026-02-12T22:00:00Z,1.35025,1.3502,1.3503,0.0001,0.740604,0.37,0.37,1.7,12.19,0.37,0.37,0.37,8.83,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:00:00Z,binance,XRP,XRPUSDT,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:00:00Z,bybit,XRP,XRPUSDT,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:00:00Z,hyperliquid,HYPE,HYPE,1,1,,2026-02-12T22:00:00Z,29.8125,29.812,29.813,0.001,0.33543,0.17,1.12,4.81,20.81,0.49,1.02,3.96,19.75,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:00:00Z,dydx,HYPE,HYPE-USD,1,1,,2026-02-12T22:00:00Z,29.879,29.86,29.898,0.038,12.717962,6.49,14.52,81.7,341.46,9.7,20.2,59.28,193.48,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:00:00Z,lighter,HYPE,HYPE,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 503
+2026-02-12T22:00:00Z,asterdex,HYPE,HYPEUSDT,1,1,1770933660293,2026-02-12T22:00:00Z,29.8225,29.822,29.823,0.001,0.335317,0.17,0.37,1.96,199.29,0.17,1.84,4.12,269.56,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:00:00Z,binance,HYPE,HYPEUSDT,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:00:00Z,bybit,HYPE,HYPEUSDT,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:00:00Z,hyperliquid,BONK,kBONK,1,1,,2026-02-12T22:00:00Z,0.00597,0.005969,0.005971,0.000002,3.350084,2.64,5.67,11.13,88.84,1.68,3.92,10.83,99.62,true,true,true,true,true,true,true,true,1000000,1000000,true,3,"[5,5,5,3]",false,
+2026-02-12T22:00:00Z,dydx,BONK,BONK-USD,1,1,,2026-02-12T22:00:00Z,0.000006,0.000006,0.000006,0,0,-41.66,-34.17,-23.92,214.71,66.67,66.67,75.58,334.64,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:00:00Z,lighter,BONK,1000BONK,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 503
+2026-02-12T22:00:00Z,asterdex,BONK,1000BONKUSDT,1,1,1770933660291,2026-02-12T22:00:00Z,0.005969,0.005968,0.00597,0.000002,3.350645,1.68,7.3,39.95,39.95,1.68,4.34,263.13,263.13,true,true,false,false,true,true,false,false,24493.09,26194.25,false,,,false,
+2026-02-12T22:00:00Z,binance,BONK,1000BONKUSDT,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:00:00Z,bybit,BONK,1000BONKUSDT,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:00:00Z,hyperliquid,PAXG,PAXG,1,1,,2026-02-12T22:00:00Z,4931.3,4931.1,4931.5,0.4,0.811145,0.41,0.41,1.94,8.36,0.41,1.41,3.2,10.18,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:00:00Z,dydx,PAXG,PAXG-USD,1,1,,2026-02-12T22:00:00Z,4925.5,4921,4930,9,18.272257,9.14,10.15,22.93,1256.06,9.14,9.93,22.83,1204.06,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:00:00Z,lighter,PAXG,PAXG,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 503
+2026-02-12T22:00:00Z,binance,PAXG,PAXGUSDT,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:00:00Z,bybit,PAXG,PAXGUSDT,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:00:00Z,hyperliquid,ZEC,ZEC,1,1,,2026-02-12T22:00:00Z,229.605,229.58,229.63,0.05,2.177653,1.09,2.4,6.02,29.36,1.09,1.92,5.2,29.08,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:00:00Z,dydx,ZEC,ZEC-USD,1,1,,2026-02-12T22:00:00Z,229.865,229.7,230.03,0.33,14.356253,7.18,8.16,21.8,585.41,7.18,8.16,20.83,619.64,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:00:00Z,lighter,ZEC,ZEC,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 503
+2026-02-12T22:00:00Z,asterdex,ZEC,ZECUSDT,1,1,1770933660124,2026-02-12T22:00:00Z,229.555,229.55,229.56,0.01,0.435625,0.22,1.49,5.84,1473.22,0.61,1.66,7.38,4720.29,true,true,true,false,true,true,true,false,934734,817129.86,false,,,false,
+2026-02-12T22:00:00Z,binance,ZEC,ZECUSDT,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:00:00Z,bybit,ZEC,ZECUSDT,1,0,,2026-02-12T22:00:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:01:00Z,hyperliquid,BTC,BTC,1,1,,2026-02-12T22:01:00Z,65819.5,65819,65820,1,0.151931,0.08,0.08,0.08,1,0.08,0.08,0.08,1.21,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T22:01:00Z,dydx,BTC,BTC-USD,1,1,,2026-02-12T22:01:00Z,65802.5,65795,65810,15,2.279549,1.14,1.23,1.94,7.49,1.14,1.23,2.24,6.45,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:01:00Z,lighter,BTC,BTC,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 429
+2026-02-12T22:01:00Z,asterdex,BTC,BTCUSDT,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:01:00Z,binance,BTC,BTCUSDT,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:01:00Z,bybit,BTC,BTCUSDT,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:01:00Z,hyperliquid,ETH,ETH,1,1,,2026-02-12T22:01:00Z,1923.05,1923,1923.1,0.1,0.520007,0.26,0.26,0.26,1.54,0.26,0.26,0.93,1.89,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T22:01:00Z,dydx,ETH,ETH-USD,1,1,,2026-02-12T22:01:00Z,1922.95,1922.9,1923,0.1,0.520034,0.26,1.39,3.9,9.47,0.26,0.57,3.55,8.17,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:01:00Z,lighter,ETH,ETH,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 429
+2026-02-12T22:01:00Z,asterdex,ETH,ETHUSDT,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:01:00Z,binance,ETH,ETHUSDT,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:01:00Z,bybit,ETH,ETHUSDT,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:01:00Z,hyperliquid,SOL,SOL,1,1,,2026-02-12T22:01:00Z,77.285,77.281,77.289,0.008,1.03513,0.52,0.52,0.56,4.48,0.52,0.6,1.32,3.86,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:01:00Z,dydx,SOL,SOL-USD,1,1,,2026-02-12T22:01:00Z,77.305,77.3,77.31,0.01,1.293577,0.65,2.72,12.2,33.85,0.65,0.65,3.25,13.43,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:01:00Z,lighter,SOL,SOL,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 429
+2026-02-12T22:01:00Z,asterdex,SOL,SOLUSDT,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:01:00Z,binance,SOL,SOLUSDT,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:01:00Z,bybit,SOL,SOLUSDT,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:01:00Z,hyperliquid,XRP,XRP,1,1,,2026-02-12T22:01:00Z,1.35175,1.3517,1.3518,0.0001,0.739782,0.37,0.37,1.21,7.31,0.37,1.84,4.48,15.34,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:01:00Z,dydx,XRP,XRP-USD,1,1,,2026-02-12T22:01:00Z,1.35065,1.3504,1.3509,0.0005,3.701921,5.17,10.7,14.67,58.51,1.88,3.84,7.2,19,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:01:00Z,lighter,XRP,XRP,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 429
+2026-02-12T22:01:00Z,asterdex,XRP,XRPUSDT,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:01:00Z,binance,XRP,XRPUSDT,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:01:00Z,bybit,XRP,XRPUSDT,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:01:00Z,hyperliquid,HYPE,HYPE,1,1,,2026-02-12T22:01:00Z,29.834,29.828,29.84,0.012,4.022256,2.01,3.62,5.94,19.83,2.01,2.08,4.89,22.56,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:01:00Z,dydx,HYPE,HYPE-USD,1,1,,2026-02-12T22:01:00Z,29.9,29.87,29.93,0.06,20.06689,10.03,19.57,181.69,355.82,10.03,20.31,65.59,204.76,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:01:00Z,lighter,HYPE,HYPE,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 429
+2026-02-12T22:01:00Z,asterdex,HYPE,HYPEUSDT,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:01:00Z,binance,HYPE,HYPEUSDT,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:01:00Z,bybit,HYPE,HYPEUSDT,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:01:00Z,hyperliquid,BONK,kBONK,1,1,,2026-02-12T22:01:00Z,0.005973,0.005972,0.005974,0.000002,3.348401,1.67,3.64,9.65,98.55,2.66,4.05,12.73,120,true,true,true,true,true,true,true,true,1000000,1000000,true,3,"[5,5,5,3]",false,
+2026-02-12T22:01:00Z,dydx,BONK,BONK-USD,1,1,,2026-02-12T22:01:00Z,0.000006,0.000006,0.000006,0,0,-36.67,-20.52,-10.38,183.06,66.67,66.67,75.17,278.91,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:01:00Z,lighter,BONK,1000BONK,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 429
+2026-02-12T22:01:00Z,asterdex,BONK,1000BONKUSDT,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:01:00Z,binance,BONK,1000BONKUSDT,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:01:00Z,bybit,BONK,1000BONKUSDT,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:01:00Z,hyperliquid,PAXG,PAXG,1,1,,2026-02-12T22:01:00Z,4929.65,4929.6,4929.7,0.1,0.202854,0.1,0.1,2.09,8.77,0.35,1.44,2.99,8.93,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:01:00Z,dydx,PAXG,PAXG-USD,1,1,,2026-02-12T22:01:00Z,4924,4920,4928,8,16.246954,8.12,9.14,21.92,640.26,9.03,10.83,23.84,674.94,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:01:00Z,lighter,PAXG,PAXG,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 429
+2026-02-12T22:01:00Z,binance,PAXG,PAXGUSDT,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:01:00Z,bybit,PAXG,PAXGUSDT,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:01:00Z,hyperliquid,ZEC,ZEC,1,1,,2026-02-12T22:01:00Z,229.955,229.93,229.98,0.05,2.174338,1.09,1.19,4.73,23.7,2.17,2.37,6.82,35.11,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:01:00Z,dydx,ZEC,ZEC-USD,1,1,,2026-02-12T22:01:00Z,229.975,229.93,230.02,0.09,3.913469,19,20.13,31.41,592.52,1.96,1.96,12.59,614.42,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:01:00Z,lighter,ZEC,ZEC,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 429
+2026-02-12T22:01:00Z,asterdex,ZEC,ZECUSDT,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:01:00Z,binance,ZEC,ZECUSDT,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:01:00Z,bybit,ZEC,ZECUSDT,1,0,,2026-02-12T22:01:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:02:00Z,hyperliquid,BTC,BTC,1,1,,2026-02-12T22:02:00Z,65805.5,65805,65806,1,0.151963,0.08,0.17,1.01,1.85,0.08,0.08,0.08,0.08,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T22:02:00Z,dydx,BTC,BTC-USD,1,1,,2026-02-12T22:02:00Z,65785,65778,65792,14,2.128145,1.21,1.32,2.84,8.29,1.06,1.09,1.95,5.58,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:02:00Z,lighter,BTC,BTC,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 429
+2026-02-12T22:02:00Z,asterdex,BTC,BTCUSDT,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:02:00Z,binance,BTC,BTCUSDT,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:02:00Z,bybit,BTC,BTCUSDT,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:02:00Z,hyperliquid,ETH,ETH,1,1,,2026-02-12T22:02:00Z,1922.45,1922.4,1922.5,0.1,0.52017,0.26,0.68,1.51,2.89,0.26,0.26,0.26,0.26,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T22:02:00Z,dydx,ETH,ETH-USD,1,1,,2026-02-12T22:02:00Z,1922.45,1922.4,1922.5,0.1,0.52017,0.26,1.46,4.3,10.98,0.26,0.54,2.87,8.63,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:02:00Z,lighter,ETH,ETH,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 429
+2026-02-12T22:02:00Z,asterdex,ETH,ETHUSDT,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:02:00Z,binance,ETH,ETHUSDT,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:02:00Z,bybit,ETH,ETHUSDT,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:02:00Z,hyperliquid,SOL,SOL,1,1,,2026-02-12T22:02:00Z,77.2705,77.27,77.271,0.001,0.129415,0.86,1.1,2.21,4.66,0.06,0.06,0.06,2.81,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:02:00Z,dydx,SOL,SOL-USD,1,1,,2026-02-12T22:02:00Z,77.295,77.29,77.3,0.01,1.293745,0.65,2.97,11.65,34.6,0.65,1.61,5.15,15.8,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:02:00Z,lighter,SOL,SOL,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 429
+2026-02-12T22:02:00Z,asterdex,SOL,SOLUSDT,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:02:00Z,binance,SOL,SOLUSDT,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:02:00Z,bybit,SOL,SOLUSDT,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:02:00Z,hyperliquid,XRP,XRP,1,1,,2026-02-12T22:02:00Z,1.35135,1.3513,1.3514,0.0001,0.740001,0.37,0.37,2.3,11.29,0.37,0.37,2.94,14.88,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:02:00Z,dydx,XRP,XRP-USD,1,1,,2026-02-12T22:02:00Z,1.35055,1.3502,1.3509,0.0007,5.183074,2.59,9.02,13.89,60.91,2.62,4.79,7.92,12.41,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:02:00Z,lighter,XRP,XRP,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 429
+2026-02-12T22:02:00Z,asterdex,XRP,XRPUSDT,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:02:00Z,binance,XRP,XRPUSDT,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:02:00Z,bybit,XRP,XRPUSDT,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:02:00Z,hyperliquid,HYPE,HYPE,1,1,,2026-02-12T22:02:00Z,29.8365,29.836,29.837,0.001,0.33516,0.17,1.56,4.17,19.79,0.17,1.25,5.83,21.99,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,4,4]",false,
+2026-02-12T22:02:00Z,dydx,HYPE,HYPE-USD,1,1,,2026-02-12T22:02:00Z,29.889,29.88,29.898,0.018,6.022282,10.22,20.69,73.95,335.45,4.68,16.27,72.54,225.33,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:02:00Z,lighter,HYPE,HYPE,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 429
+2026-02-12T22:02:00Z,asterdex,HYPE,HYPEUSDT,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:02:00Z,binance,HYPE,HYPEUSDT,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:02:00Z,bybit,HYPE,HYPEUSDT,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:02:00Z,hyperliquid,BONK,kBONK,1,1,,2026-02-12T22:02:00Z,0.00597,0.005968,0.005971,0.000003,5.025126,1.68,1.68,6.09,97.19,3.35,5.7,14.14,109.78,true,true,true,true,true,true,true,true,1000000,1000000,true,3,"[5,5,5,3]",false,
+2026-02-12T22:02:00Z,dydx,BONK,BONK-USD,1,1,,2026-02-12T22:02:00Z,0.000006,0.000006,0.000006,0,0,-35,-33.67,-23.41,190.07,66.67,66.67,75.65,294.95,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:02:00Z,lighter,BONK,1000BONK,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 429
+2026-02-12T22:02:00Z,asterdex,BONK,1000BONKUSDT,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:02:00Z,binance,BONK,1000BONKUSDT,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:02:00Z,bybit,BONK,1000BONKUSDT,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:02:00Z,hyperliquid,PAXG,PAXG,1,1,,2026-02-12T22:02:00Z,4930.15,4930.1,4930.2,0.1,0.202834,0.3,0.48,2.61,8.26,0.34,1.09,2.9,9.98,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:02:00Z,dydx,PAXG,PAXG-USD,1,1,,2026-02-12T22:02:00Z,4923.5,4919,4928,9,18.279679,9.14,10.15,22.94,1299.38,9.14,9.93,22.84,1445.7,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:02:00Z,lighter,PAXG,PAXG,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 429
+2026-02-12T22:02:00Z,binance,PAXG,PAXGUSDT,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:02:00Z,bybit,PAXG,PAXGUSDT,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:02:00Z,hyperliquid,ZEC,ZEC,1,1,,2026-02-12T22:02:00Z,229.485,229.46,229.51,0.05,2.178792,1.09,1.95,6.28,28.05,1.09,2.42,5.18,27.9,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:02:00Z,dydx,ZEC,ZEC-USD,1,1,,2026-02-12T22:02:00Z,229.735,229.54,229.93,0.39,16.976081,8.49,9.47,21.92,586.64,8.49,9.08,21.87,703.44,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:02:00Z,lighter,ZEC,ZEC,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 429
+2026-02-12T22:02:00Z,asterdex,ZEC,ZECUSDT,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:02:00Z,binance,ZEC,ZECUSDT,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:02:00Z,bybit,ZEC,ZECUSDT,1,0,,2026-02-12T22:02:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:03:00Z,hyperliquid,BTC,BTC,1,1,,2026-02-12T22:03:00Z,65830.5,65830,65831,1,0.151905,0.08,0.08,0.08,0.3,0.08,0.08,0.62,1.29,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T22:03:00Z,dydx,BTC,BTC-USD,1,1,,2026-02-12T22:03:00Z,65807,65799,65815,16,2.431352,1.22,1.29,2.35,8.28,1.22,1.31,2.05,5.93,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:03:00Z,lighter,BTC,BTC,1,0,,2026-02-12T22:03:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:03:00Z,asterdex,BTC,BTCUSDT,1,1,1770933839466,2026-02-12T22:03:00Z,65810.85,65810.8,65810.9,0.1,0.015195,0.01,0.01,0.01,1.43,0.01,0.01,0.01,0.65,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:03:00Z,binance,BTC,BTCUSDT,1,0,,2026-02-12T22:03:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:03:00Z,bybit,BTC,BTCUSDT,1,0,,2026-02-12T22:03:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:03:00Z,hyperliquid,ETH,ETH,1,1,,2026-02-12T22:03:00Z,1922.85,1922.8,1922.9,0.1,0.520061,0.26,0.26,0.26,0.79,0.26,0.26,0.26,1.5,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T22:03:00Z,dydx,ETH,ETH-USD,1,1,,2026-02-12T22:03:00Z,1922.85,1922.8,1922.9,0.1,0.520061,0.26,1.12,3.38,9.8,0.26,0.75,2.57,7.4,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:03:00Z,lighter,ETH,ETH,1,0,,2026-02-12T22:03:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:03:00Z,asterdex,ETH,ETHUSDT,1,1,1770933839468,2026-02-12T22:03:00Z,1922.65,1922.6,1922.7,0.1,0.520115,0.26,0.26,0.26,1.9,0.26,0.71,1.3,3.11,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:03:00Z,binance,ETH,ETHUSDT,1,0,,2026-02-12T22:03:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:03:00Z,bybit,ETH,ETHUSDT,1,0,,2026-02-12T22:03:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:03:00Z,hyperliquid,SOL,SOL,1,1,,2026-02-12T22:03:00Z,77.3145,77.314,77.315,0.001,0.129342,0.06,0.06,0.11,3.61,0.06,0.06,0.15,4.37,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:03:00Z,dydx,SOL,SOL-USD,1,1,,2026-02-12T22:03:00Z,77.345,77.34,77.35,0.01,1.292908,0.65,2.47,9.97,30.92,0.65,0.65,5,10.19,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:03:00Z,lighter,SOL,SOL,1,0,,2026-02-12T22:03:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:03:00Z,asterdex,SOL,SOLUSDT,1,1,1770933839470,2026-02-12T22:03:00Z,77.315,77.31,77.32,0.01,1.29341,0.65,0.65,0.65,4.72,0.65,0.65,1.65,6.38,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:03:00Z,binance,SOL,SOLUSDT,1,0,,2026-02-12T22:03:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:03:00Z,bybit,SOL,SOLUSDT,1,0,,2026-02-12T22:03:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:03:00Z,hyperliquid,XRP,XRP,1,1,,2026-02-12T22:03:00Z,1.35175,1.3517,1.3518,0.0001,0.739782,0.37,0.37,1.85,13.58,0.37,0.52,2.58,11.22,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:03:00Z,dydx,XRP,XRP-USD,1,1,,2026-02-12T22:03:00Z,1.35065,1.3504,1.3509,0.0005,3.701921,5.45,12.3,14.82,58.83,1.88,2.97,6.7,30.65,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:03:00Z,lighter,XRP,XRP,1,0,,2026-02-12T22:03:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:03:00Z,asterdex,XRP,XRPUSDT,1,1,1770933839470,2026-02-12T22:03:00Z,1.35175,1.3517,1.3518,0.0001,0.739782,0.37,1,1.86,10.24,0.37,0.97,1.15,9.17,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:03:00Z,binance,XRP,XRPUSDT,1,0,,2026-02-12T22:03:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:03:00Z,bybit,XRP,XRPUSDT,1,0,,2026-02-12T22:03:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:03:00Z,hyperliquid,HYPE,HYPE,1,1,,2026-02-12T22:03:00Z,29.8645,29.864,29.865,0.001,0.334846,0.17,1.41,4.09,19.72,0.17,0.6,4.83,22.89,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:03:00Z,dydx,HYPE,HYPE-USD,1,1,,2026-02-12T22:03:00Z,29.925,29.9,29.95,0.05,16.708438,9.19,21.64,78.55,865.41,10.02,19.11,82.39,237.15,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:03:00Z,lighter,HYPE,HYPE,1,0,,2026-02-12T22:03:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:03:00Z,asterdex,HYPE,HYPEUSDT,1,1,1770933839473,2026-02-12T22:03:00Z,29.8725,29.872,29.873,0.001,0.334756,0.17,0.57,2.43,258.01,0.17,0.45,2.27,149.77,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:03:00Z,binance,HYPE,HYPEUSDT,1,0,,2026-02-12T22:03:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:03:00Z,bybit,HYPE,HYPEUSDT,1,0,,2026-02-12T22:03:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:03:00Z,hyperliquid,BONK,kBONK,1,1,,2026-02-12T22:03:00Z,0.00597,0.005969,0.005971,0.000002,3.350084,1.68,3.61,10.5,101.09,2.64,4.54,11.85,112.38,true,true,true,true,true,true,true,true,1000000,1000000,true,3,"[5,5,5,3]",false,
+2026-02-12T22:03:00Z,dydx,BONK,BONK-USD,1,1,,2026-02-12T22:03:00Z,0.000006,0.000006,0.000006,0,0,-40,-34,-23.61,210.6,66.67,66.67,75.45,335.24,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:03:00Z,lighter,BONK,1000BONK,1,0,,2026-02-12T22:03:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:03:00Z,asterdex,BONK,1000BONKUSDT,1,1,1770933839472,2026-02-12T22:03:00Z,0.005969,0.005968,0.005969,0.000001,1.675322,0.58,6.45,36.84,36.84,1.68,5.71,264.86,264.86,true,true,false,false,true,true,false,false,24492.19,26110.75,false,,,false,
+2026-02-12T22:03:00Z,binance,BONK,1000BONKUSDT,1,0,,2026-02-12T22:03:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:03:00Z,bybit,BONK,1000BONKUSDT,1,0,,2026-02-12T22:03:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:03:00Z,hyperliquid,PAXG,PAXG,1,1,,2026-02-12T22:03:00Z,4930.85,4930.6,4931.1,0.5,1.014024,0.51,0.51,2.49,9.28,0.57,0.76,2.9,9.95,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:03:00Z,dydx,PAXG,PAXG-USD,1,1,,2026-02-12T22:03:00Z,4925,4921,4929,8,16.243655,8.12,9.14,21.92,1231.81,8.12,9.02,21.83,812.91,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:03:00Z,lighter,PAXG,PAXG,1,0,,2026-02-12T22:03:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:03:00Z,binance,PAXG,PAXGUSDT,1,0,,2026-02-12T22:03:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:03:00Z,bybit,PAXG,PAXGUSDT,1,0,,2026-02-12T22:03:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:03:00Z,hyperliquid,ZEC,ZEC,1,1,,2026-02-12T22:03:00Z,229.885,229.88,229.89,0.01,0.435,0.22,2.06,6.04,28.88,0.58,2.11,5.15,27.39,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:03:00Z,dydx,ZEC,ZEC-USD,1,1,,2026-02-12T22:03:00Z,230.18,229.99,230.37,0.38,16.508819,8.25,9.24,21.66,585.76,8.25,9.23,21.68,617.45,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:03:00Z,lighter,ZEC,ZEC,1,0,,2026-02-12T22:03:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:03:00Z,asterdex,ZEC,ZECUSDT,1,1,1770933839472,2026-02-12T22:03:00Z,229.825,229.82,229.83,0.01,0.435114,0.22,1.45,6.68,1480.59,0.22,1.81,7.38,4697.17,true,true,true,false,true,true,true,false,926990.41,826306.53,false,,,false,
+2026-02-12T22:03:00Z,binance,ZEC,ZECUSDT,1,0,,2026-02-12T22:03:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:03:00Z,bybit,ZEC,ZECUSDT,1,0,,2026-02-12T22:03:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:04:00Z,hyperliquid,BTC,BTC,1,1,,2026-02-12T22:04:00Z,65864.5,65864,65865,1,0.151827,0.08,0.92,1.5,2.39,0.08,0.08,0.08,0.16,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T22:04:00Z,dydx,BTC,BTC-USD,1,1,,2026-02-12T22:04:00Z,65844.5,65831,65858,27,4.10057,2.05,2.13,4.43,8.08,2.05,2.09,2.8,6.64,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:04:00Z,lighter,BTC,BTC,1,0,,2026-02-12T22:04:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:04:00Z,asterdex,BTC,BTCUSDT,1,1,1770933900305,2026-02-12T22:04:00Z,65851.75,65851.7,65851.8,0.1,0.015186,0.01,0.01,0.01,1.56,0.01,0.01,0.01,0.28,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:04:00Z,binance,BTC,BTCUSDT,1,0,,2026-02-12T22:04:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:04:00Z,bybit,BTC,BTCUSDT,1,0,,2026-02-12T22:04:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:04:00Z,hyperliquid,ETH,ETH,1,1,,2026-02-12T22:04:00Z,1923.65,1923.6,1923.7,0.1,0.519845,0.73,1.4,2.45,3.72,0.26,0.26,0.26,0.26,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T22:04:00Z,dydx,ETH,ETH-USD,1,1,,2026-02-12T22:04:00Z,1923.75,1923.7,1923.8,0.1,0.519818,0.26,1.99,4.76,8.37,0.26,1.06,2.68,9.59,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:04:00Z,lighter,ETH,ETH,1,0,,2026-02-12T22:04:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:04:00Z,asterdex,ETH,ETHUSDT,1,1,1770933900242,2026-02-12T22:04:00Z,1923.65,1923.6,1923.7,0.1,0.519845,0.26,0.26,0.26,2.31,0.26,0.26,0.26,1.64,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:04:00Z,binance,ETH,ETHUSDT,1,0,,2026-02-12T22:04:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:04:00Z,bybit,ETH,ETHUSDT,1,0,,2026-02-12T22:04:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:04:00Z,hyperliquid,SOL,SOL,1,1,,2026-02-12T22:04:00Z,77.3255,77.325,77.326,0.001,0.129323,0.45,0.97,2.17,5.87,0.06,0.06,0.06,0.48,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:04:00Z,dydx,SOL,SOL-USD,1,1,,2026-02-12T22:04:00Z,77.355,77.35,77.36,0.01,1.292741,0.65,2.5,9.84,29.47,0.65,1.46,6.06,11.6,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:04:00Z,lighter,SOL,SOL,1,0,,2026-02-12T22:04:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:04:00Z,asterdex,SOL,SOLUSDT,1,1,1770933900324,2026-02-12T22:04:00Z,77.315,77.31,77.32,0.01,1.29341,0.65,0.65,1.46,6.95,0.65,0.65,0.65,4.51,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:04:00Z,binance,SOL,SOLUSDT,1,0,,2026-02-12T22:04:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:04:00Z,bybit,SOL,SOLUSDT,1,0,,2026-02-12T22:04:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:04:00Z,hyperliquid,XRP,XRP,1,1,,2026-02-12T22:04:00Z,1.35295,1.3529,1.353,0.0001,0.739126,0.37,0.65,1.66,7.81,0.37,0.37,1.87,11.24,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:04:00Z,dydx,XRP,XRP-USD,1,1,,2026-02-12T22:04:00Z,1.35205,1.3515,1.3526,0.0011,8.135794,4.07,4.07,10.45,70.91,4.13,6.04,8.43,12.73,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:04:00Z,lighter,XRP,XRP,1,0,,2026-02-12T22:04:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:04:00Z,asterdex,XRP,XRPUSDT,1,1,1770933900248,2026-02-12T22:04:00Z,1.35295,1.3529,1.353,0.0001,0.739126,0.37,0.37,1.28,9.11,0.37,0.37,1.43,10.23,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:04:00Z,binance,XRP,XRPUSDT,1,0,,2026-02-12T22:04:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:04:00Z,bybit,XRP,XRPUSDT,1,0,,2026-02-12T22:04:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:04:00Z,hyperliquid,HYPE,HYPE,1,1,,2026-02-12T22:04:00Z,29.8925,29.892,29.893,0.001,0.334532,0.17,2.03,5.36,18.14,0.17,0.41,3.79,25.2,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,4,4]",false,
+2026-02-12T22:04:00Z,dydx,HYPE,HYPE-USD,1,1,,2026-02-12T22:04:00Z,29.95,29.93,29.97,0.04,13.355593,7.51,20.78,98.75,336.52,8.17,18.03,66.89,213.52,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:04:00Z,lighter,HYPE,HYPE,1,0,,2026-02-12T22:04:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:04:00Z,asterdex,HYPE,HYPEUSDT,1,1,1770933899461,2026-02-12T22:04:00Z,29.8995,29.899,29.9,0.001,0.334454,0.17,1.44,4.03,401.2,0.17,0.17,2.14,108.67,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:04:00Z,binance,HYPE,HYPEUSDT,1,0,,2026-02-12T22:04:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:04:00Z,bybit,HYPE,HYPEUSDT,1,0,,2026-02-12T22:04:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:04:00Z,hyperliquid,BONK,kBONK,1,1,,2026-02-12T22:04:00Z,0.005971,0.00597,0.005972,0.000002,3.349523,1.67,4.15,9.62,93.67,2.62,4.69,12.8,117.18,true,true,true,true,true,true,true,true,1000000,1000000,true,3,"[5,5,5,3]",false,
+2026-02-12T22:04:00Z,dydx,BONK,BONK-USD,1,1,,2026-02-12T22:04:00Z,0.000006,0.000006,0.000006,0,0,-38.33,-33.83,-17.65,147.93,66.67,66.67,75.5,249.3,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:04:00Z,lighter,BONK,1000BONK,1,0,,2026-02-12T22:04:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:04:00Z,asterdex,BONK,1000BONKUSDT,1,1,1770933900121,2026-02-12T22:04:00Z,0.00597,0.005969,0.005971,0.000002,3.350084,2.25,11.68,53.08,53.08,1.95,5.29,252.97,252.97,true,true,false,false,true,true,false,false,15473.82,27426.26,false,,,false,
+2026-02-12T22:04:00Z,binance,BONK,1000BONKUSDT,1,0,,2026-02-12T22:04:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:04:00Z,bybit,BONK,1000BONKUSDT,1,0,,2026-02-12T22:04:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:04:00Z,hyperliquid,PAXG,PAXG,1,1,,2026-02-12T22:04:00Z,4931.95,4931.9,4932,0.1,0.20276,0.1,0.1,2.07,9.91,0.26,1.12,3.07,8.75,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:04:00Z,dydx,PAXG,PAXG-USD,1,1,,2026-02-12T22:04:00Z,4926,4922,4930,8,16.240357,8.12,9.14,21.92,877,9.02,10.83,23.83,1057.78,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:04:00Z,lighter,PAXG,PAXG,1,0,,2026-02-12T22:04:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:04:00Z,binance,PAXG,PAXGUSDT,1,0,,2026-02-12T22:04:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:04:00Z,bybit,PAXG,PAXGUSDT,1,0,,2026-02-12T22:04:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:04:00Z,hyperliquid,ZEC,ZEC,1,1,,2026-02-12T22:04:00Z,230.155,230.15,230.16,0.01,0.43449,1.98,4.25,7.42,27.47,0.38,0.62,4.14,27.61,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:04:00Z,dydx,ZEC,ZEC-USD,1,1,,2026-02-12T22:04:00Z,230.425,230.23,230.62,0.39,16.925247,8.46,9.44,22.09,586.25,8.46,9.45,21.85,617.39,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:04:00Z,lighter,ZEC,ZEC,1,0,,2026-02-12T22:04:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:04:00Z,asterdex,ZEC,ZECUSDT,1,1,1770933900211,2026-02-12T22:04:00Z,230.105,230.1,230.11,0.01,0.434584,0.22,1.37,5,1506.54,0.22,1.45,6.93,4636.28,true,true,true,false,true,true,true,false,910839.32,848501.45,false,,,false,
+2026-02-12T22:04:00Z,binance,ZEC,ZECUSDT,1,0,,2026-02-12T22:04:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:04:00Z,bybit,ZEC,ZECUSDT,1,0,,2026-02-12T22:04:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:05:00Z,hyperliquid,BTC,BTC,1,1,,2026-02-12T22:05:00Z,65826.5,65826,65827,1,0.151915,0.08,0.08,0.08,0.83,0.08,0.08,0.08,0.42,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T22:05:00Z,dydx,BTC,BTC-USD,1,1,,2026-02-12T22:05:00Z,65809,65803,65815,12,1.823459,0.91,0.99,1.86,14.81,0.91,1.05,3.67,7.34,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:05:00Z,lighter,BTC,BTC,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:05:00Z,asterdex,BTC,BTCUSDT,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:05:00Z,binance,BTC,BTCUSDT,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:05:00Z,bybit,BTC,BTCUSDT,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:05:00Z,hyperliquid,ETH,ETH,1,1,,2026-02-12T22:05:00Z,1922.65,1922.6,1922.7,0.1,0.520115,0.26,0.26,0.26,1.04,0.26,0.26,0.54,1.82,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T22:05:00Z,dydx,ETH,ETH-USD,1,1,,2026-02-12T22:05:00Z,1922.65,1922.6,1922.7,0.1,0.520115,0.36,0.83,3.61,12.03,0.26,2.43,5.68,10.03,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:05:00Z,lighter,ETH,ETH,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:05:00Z,asterdex,ETH,ETHUSDT,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:05:00Z,binance,ETH,ETHUSDT,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:05:00Z,bybit,ETH,ETHUSDT,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:05:00Z,hyperliquid,SOL,SOL,1,1,,2026-02-12T22:05:00Z,77.3275,77.327,77.328,0.001,0.12932,0.7,0.9,1.99,5.44,0.06,0.06,0.06,2.24,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:05:00Z,dydx,SOL,SOL-USD,1,1,,2026-02-12T22:05:00Z,77.355,77.35,77.36,0.01,1.292741,0.65,1.85,9.56,30.52,0.65,3.96,5.63,10.44,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:05:00Z,lighter,SOL,SOL,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:05:00Z,asterdex,SOL,SOLUSDT,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:05:00Z,binance,SOL,SOLUSDT,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:05:00Z,bybit,SOL,SOLUSDT,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:05:00Z,hyperliquid,XRP,XRP,1,1,,2026-02-12T22:05:00Z,1.35295,1.3529,1.353,0.0001,0.739126,0.37,0.81,2.6,7.97,0.37,0.37,0.65,9.33,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:05:00Z,dydx,XRP,XRP-USD,1,1,,2026-02-12T22:05:00Z,1.35215,1.3518,1.3525,0.0007,5.17694,2.59,8.37,15.27,72.68,2.59,6.12,8.22,12.84,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:05:00Z,lighter,XRP,XRP,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:05:00Z,asterdex,XRP,XRPUSDT,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:05:00Z,binance,XRP,XRPUSDT,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:05:00Z,bybit,XRP,XRPUSDT,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:05:00Z,hyperliquid,HYPE,HYPE,1,1,,2026-02-12T22:05:00Z,29.897,29.895,29.899,0.004,1.337927,0.79,1.49,4.04,19.78,0.67,0.67,3.24,21.51,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:05:00Z,dydx,HYPE,HYPE-USD,1,1,,2026-02-12T22:05:00Z,29.953,29.94,29.966,0.026,8.680266,8.65,17.37,74.56,341.23,7.66,18.09,63.46,211.17,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:05:00Z,lighter,HYPE,HYPE,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:05:00Z,asterdex,HYPE,HYPEUSDT,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:05:00Z,binance,HYPE,HYPEUSDT,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:05:00Z,bybit,HYPE,HYPEUSDT,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:05:00Z,hyperliquid,BONK,kBONK,1,1,,2026-02-12T22:05:00Z,0.005965,0.005963,0.005966,0.000003,5.029338,1.68,3.24,9.6,106.28,3.35,4.66,13.74,109.71,true,true,true,true,true,true,true,true,1000000,1000000,true,3,"[5,5,5,3]",false,
+2026-02-12T22:05:00Z,dydx,BONK,BONK-USD,1,1,,2026-02-12T22:05:00Z,0.000006,0.000006,0.000006,0,0,-49.99,-38.01,-24.96,170.51,66.67,70.84,89.8,291.81,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:05:00Z,lighter,BONK,1000BONK,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:05:00Z,asterdex,BONK,1000BONKUSDT,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:05:00Z,binance,BONK,1000BONKUSDT,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:05:00Z,bybit,BONK,1000BONKUSDT,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:05:00Z,hyperliquid,PAXG,PAXG,1,1,,2026-02-12T22:05:00Z,4932.45,4932.4,4932.5,0.1,0.202739,0.1,1.48,2.09,8.36,0.1,0.37,2.8,9.62,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:05:00Z,dydx,PAXG,PAXG-USD,1,1,,2026-02-12T22:05:00Z,4927.5,4923,4932,9,18.26484,9.13,10.15,22.92,640.42,9.13,10.04,22.83,675.25,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:05:00Z,lighter,PAXG,PAXG,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:05:00Z,binance,PAXG,PAXGUSDT,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:05:00Z,bybit,PAXG,PAXGUSDT,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:05:00Z,hyperliquid,ZEC,ZEC,1,1,,2026-02-12T22:05:00Z,230.07,230.04,230.1,0.06,2.607902,1.33,2.72,7.22,30.18,1.3,1.56,4.09,25.48,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:05:00Z,dydx,ZEC,ZEC-USD,1,1,,2026-02-12T22:05:00Z,230.35,230.16,230.54,0.38,16.496636,8.25,9.23,21.89,659.86,8.25,8.84,21.36,602.33,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:05:00Z,lighter,ZEC,ZEC,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:05:00Z,asterdex,ZEC,ZECUSDT,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:05:00Z,binance,ZEC,ZECUSDT,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:05:00Z,bybit,ZEC,ZECUSDT,1,0,,2026-02-12T22:05:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:06:00Z,hyperliquid,BTC,BTC,1,1,,2026-02-12T22:06:00Z,65801.5,65801,65802,1,0.151972,0.08,0.08,0.08,0.59,0.08,0.08,0.08,0.74,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T22:06:00Z,dydx,BTC,BTC-USD,1,1,,2026-02-12T22:06:00Z,65778.5,65771,65786,15,2.28038,1.14,1.2,2.13,9.4,1.14,1.18,2.81,5.76,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:06:00Z,lighter,BTC,BTC,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:06:00Z,asterdex,BTC,BTCUSDT,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:06:00Z,binance,BTC,BTCUSDT,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:06:00Z,bybit,BTC,BTCUSDT,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:06:00Z,hyperliquid,ETH,ETH,1,1,,2026-02-12T22:06:00Z,1922.95,1922.9,1923,0.1,0.520034,0.26,0.26,1.03,2.31,0.26,0.26,0.26,0.56,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T22:06:00Z,dydx,ETH,ETH-USD,1,1,,2026-02-12T22:06:00Z,1923.15,1923.1,1923.2,0.1,0.51998,0.26,0.36,3.34,7.07,0.26,0.93,3.86,8.58,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:06:00Z,lighter,ETH,ETH,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:06:00Z,asterdex,ETH,ETHUSDT,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:06:00Z,binance,ETH,ETHUSDT,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:06:00Z,bybit,ETH,ETHUSDT,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:06:00Z,hyperliquid,SOL,SOL,1,1,,2026-02-12T22:06:00Z,77.3405,77.34,77.341,0.001,0.129298,0.06,0.06,0.06,3.45,0.06,0.06,1.41,5.41,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:06:00Z,dydx,SOL,SOL-USD,1,1,,2026-02-12T22:06:00Z,77.365,77.36,77.37,0.01,1.292574,0.65,2.36,14.03,41.07,0.65,2.6,6.39,10.2,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:06:00Z,lighter,SOL,SOL,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:06:00Z,asterdex,SOL,SOLUSDT,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:06:00Z,binance,SOL,SOLUSDT,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:06:00Z,bybit,SOL,SOLUSDT,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:06:00Z,hyperliquid,XRP,XRP,1,1,,2026-02-12T22:06:00Z,1.35345,1.3534,1.3535,0.0001,0.738853,0.37,0.66,2.61,11.54,0.37,0.37,2.36,14.6,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:06:00Z,dydx,XRP,XRP-USD,1,1,,2026-02-12T22:06:00Z,1.3524,1.3521,1.3527,0.0006,4.436557,5.76,11.93,15.15,59.12,2.25,3.3,6.82,10.69,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:06:00Z,lighter,XRP,XRP,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:06:00Z,asterdex,XRP,XRPUSDT,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:06:00Z,binance,XRP,XRPUSDT,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:06:00Z,bybit,XRP,XRPUSDT,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:06:00Z,hyperliquid,HYPE,HYPE,1,1,,2026-02-12T22:06:00Z,29.8925,29.892,29.893,0.001,0.334532,0.17,2.13,4.35,17.64,0.17,0.92,4.49,21,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:06:00Z,dydx,HYPE,HYPE-USD,1,1,,2026-02-12T22:06:00Z,29.95,29.93,29.97,0.04,13.355593,8.35,16.53,76.53,342.21,8.34,18.89,60.93,210.23,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:06:00Z,lighter,HYPE,HYPE,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:06:00Z,asterdex,HYPE,HYPEUSDT,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:06:00Z,binance,HYPE,HYPEUSDT,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:06:00Z,bybit,HYPE,HYPEUSDT,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:06:00Z,hyperliquid,BONK,kBONK,1,1,,2026-02-12T22:06:00Z,0.005964,0.005963,0.005964,0.000001,1.676727,1.61,2.29,9.54,99.61,2.62,5.55,14.87,108.27,true,true,true,true,true,true,true,true,1000000,1000000,true,3,"[5,5,5,3]",false,
+2026-02-12T22:06:00Z,dydx,BONK,BONK-USD,1,1,,2026-02-12T22:06:00Z,0.000006,0.000006,0.000006,0,0,-50,-38.18,-26.29,200.24,83.33,83.33,92.01,344.02,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:06:00Z,lighter,BONK,1000BONK,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:06:00Z,asterdex,BONK,1000BONKUSDT,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:06:00Z,binance,BONK,1000BONKUSDT,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:06:00Z,bybit,BONK,1000BONKUSDT,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:06:00Z,hyperliquid,PAXG,PAXG,1,1,,2026-02-12T22:06:00Z,4932.45,4932.4,4932.5,0.1,0.202739,0.1,1.99,3.73,10.32,0.1,0.3,2.08,8.62,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:06:00Z,dydx,PAXG,PAXG-USD,1,1,,2026-02-12T22:06:00Z,4927.5,4923,4932,9,18.26484,9.13,10.15,22.92,1232.12,9.13,10.04,22.83,674.06,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:06:00Z,lighter,PAXG,PAXG,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:06:00Z,binance,PAXG,PAXGUSDT,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:06:00Z,bybit,PAXG,PAXGUSDT,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:06:00Z,hyperliquid,ZEC,ZEC,1,1,,2026-02-12T22:06:00Z,230.19,230.16,230.22,0.06,2.606542,1.3,2.29,6.35,26.14,1.66,1.93,4.91,29.56,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:06:00Z,dydx,ZEC,ZEC-USD,1,1,,2026-02-12T22:06:00Z,230.345,230.28,230.41,0.13,5.643708,13.42,14.62,27.3,590.79,2.82,3.81,16.33,609.98,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:06:00Z,lighter,ZEC,ZEC,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:06:00Z,asterdex,ZEC,ZECUSDT,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:06:00Z,binance,ZEC,ZECUSDT,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:06:00Z,bybit,ZEC,ZECUSDT,1,0,,2026-02-12T22:06:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:07:00Z,hyperliquid,BTC,BTC,1,1,,2026-02-12T22:07:00Z,65746.5,65746,65747,1,0.152099,0.08,0.08,0.08,0.94,0.08,0.08,0.08,0.37,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T22:07:00Z,dydx,BTC,BTC-USD,1,1,,2026-02-12T22:07:00Z,65724.5,65718,65731,13,1.977953,1.29,1.35,2.23,10.1,0.99,1.05,2.1,12.52,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:07:00Z,lighter,BTC,BTC,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:07:00Z,asterdex,BTC,BTCUSDT,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:07:00Z,binance,BTC,BTCUSDT,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:07:00Z,bybit,BTC,BTCUSDT,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:07:00Z,hyperliquid,ETH,ETH,1,1,,2026-02-12T22:07:00Z,1921.75,1921.7,1921.8,0.1,0.520359,0.26,0.26,0.96,2.76,0.26,0.26,0.26,0.44,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T22:07:00Z,dydx,ETH,ETH-USD,1,1,,2026-02-12T22:07:00Z,1922.05,1922,1922.1,0.1,0.520278,0.26,0.26,3.65,18.47,0.26,1.49,4.97,15.1,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:07:00Z,lighter,ETH,ETH,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:07:00Z,asterdex,ETH,ETHUSDT,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:07:00Z,binance,ETH,ETHUSDT,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:07:00Z,bybit,ETH,ETHUSDT,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:07:00Z,hyperliquid,SOL,SOL,1,1,,2026-02-12T22:07:00Z,77.2505,77.25,77.251,0.001,0.129449,0.06,0.06,0.72,3.36,0.06,0.3,1.28,5.34,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:07:00Z,dydx,SOL,SOL-USD,1,1,,2026-02-12T22:07:00Z,77.275,77.27,77.28,0.01,1.29408,0.65,3.31,16.14,46.32,0.65,2.65,6.48,18.84,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:07:00Z,lighter,SOL,SOL,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:07:00Z,asterdex,SOL,SOLUSDT,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:07:00Z,binance,SOL,SOLUSDT,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:07:00Z,bybit,SOL,SOLUSDT,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:07:00Z,hyperliquid,XRP,XRP,1,1,,2026-02-12T22:07:00Z,1.35225,1.3522,1.3523,0.0001,0.739508,1.06,1.65,3.26,10.38,0.37,0.37,1.69,8.6,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:07:00Z,dydx,XRP,XRP-USD,1,1,,2026-02-12T22:07:00Z,1.3514,1.351,1.3518,0.0008,5.919787,6.14,11.23,14.14,58.77,2.99,4.68,8.38,33.82,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:07:00Z,lighter,XRP,XRP,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:07:00Z,asterdex,XRP,XRPUSDT,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:07:00Z,binance,XRP,XRPUSDT,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:07:00Z,bybit,XRP,XRPUSDT,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:07:00Z,hyperliquid,HYPE,HYPE,1,1,,2026-02-12T22:07:00Z,29.8865,29.886,29.887,0.001,0.334599,0.17,1.47,5.23,20.75,0.17,1.16,5.27,21.65,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:07:00Z,dydx,HYPE,HYPE-USD,1,1,,2026-02-12T22:07:00Z,29.945,29.93,29.96,0.03,10.018367,5.85,16.62,83.7,337.88,6.5,17.35,61.38,211.84,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:07:00Z,lighter,HYPE,HYPE,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:07:00Z,asterdex,HYPE,HYPEUSDT,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:07:00Z,binance,HYPE,HYPEUSDT,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:07:00Z,bybit,HYPE,HYPEUSDT,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:07:00Z,hyperliquid,BONK,kBONK,1,1,,2026-02-12T22:07:00Z,0.00596,0.005959,0.005961,0.000002,3.355705,2.66,3.29,9.32,99.08,1.68,5.16,13.37,104.43,true,true,true,true,true,true,true,true,1000000,1000000,true,3,"[5,5,5,3]",false,
+2026-02-12T22:07:00Z,dydx,BONK,BONK-USD,1,1,,2026-02-12T22:07:00Z,0.000006,0.000006,0.000006,0,0,-56.66,-51,-33.99,232.67,83.33,83.33,92.36,392.05,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:07:00Z,lighter,BONK,1000BONK,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:07:00Z,asterdex,BONK,1000BONKUSDT,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:07:00Z,binance,BONK,1000BONKUSDT,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:07:00Z,bybit,BONK,1000BONKUSDT,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:07:00Z,hyperliquid,PAXG,PAXG,1,1,,2026-02-12T22:07:00Z,4930.95,4930.9,4931,0.1,0.202801,0.1,1.12,2.72,10.21,0.1,0.92,2.31,7.86,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:07:00Z,dydx,PAXG,PAXG-USD,1,1,,2026-02-12T22:07:00Z,4925.5,4921,4930,9,18.272257,9.14,10.15,22.93,1749.62,9.14,9.93,21.72,1221.91,true,true,true,false,true,true,true,true,994155.68,1000000,false,,,false,
+2026-02-12T22:07:00Z,lighter,PAXG,PAXG,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:07:00Z,binance,PAXG,PAXGUSDT,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:07:00Z,bybit,PAXG,PAXGUSDT,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:07:00Z,hyperliquid,ZEC,ZEC,1,1,,2026-02-12T22:07:00Z,229.96,229.94,229.98,0.04,1.739433,0.93,2.28,5.63,28.95,0.87,1.65,4.86,30.56,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:07:00Z,dydx,ZEC,ZEC-USD,1,1,,2026-02-12T22:07:00Z,230.22,230.03,230.41,0.38,16.505951,8.25,9.23,21.9,585.99,8.25,9.23,21.68,619.55,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:07:00Z,lighter,ZEC,ZEC,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:07:00Z,asterdex,ZEC,ZECUSDT,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:07:00Z,binance,ZEC,ZECUSDT,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:07:00Z,bybit,ZEC,ZECUSDT,1,0,,2026-02-12T22:07:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:08:00Z,hyperliquid,BTC,BTC,1,1,,2026-02-12T22:08:00Z,65772.5,65770,65775,5,0.760196,0.88,2.19,3.31,4.62,0.38,0.38,0.38,0.38,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:08:00Z,dydx,BTC,BTC-USD,1,1,,2026-02-12T22:08:00Z,65775,65766,65784,18,2.736602,1.37,1.37,2.46,7.09,1.37,1.39,2.57,7.54,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:08:00Z,lighter,BTC,BTC,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:08:00Z,asterdex,BTC,BTCUSDT,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:08:00Z,binance,BTC,BTCUSDT,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:08:00Z,bybit,BTC,BTCUSDT,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:08:00Z,hyperliquid,ETH,ETH,1,1,,2026-02-12T22:08:00Z,1922.55,1922.5,1922.6,0.1,0.520143,0.26,2.29,3.71,4.3,0.26,0.26,0.26,0.26,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T22:08:00Z,dydx,ETH,ETH-USD,1,1,,2026-02-12T22:08:00Z,1923.15,1923.1,1923.2,0.1,0.51998,0.26,1.04,2.14,6.04,0.26,1.35,3.53,9.31,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:08:00Z,lighter,ETH,ETH,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:08:00Z,asterdex,ETH,ETHUSDT,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:08:00Z,binance,ETH,ETHUSDT,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:08:00Z,bybit,ETH,ETHUSDT,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:08:00Z,hyperliquid,SOL,SOL,1,1,,2026-02-12T22:08:00Z,77.2815,77.281,77.282,0.001,0.129397,2.41,3.41,4.81,7.55,0.06,0.06,0.06,1.64,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:08:00Z,dydx,SOL,SOL-USD,1,1,,2026-02-12T22:08:00Z,77.325,77.32,77.33,0.01,1.293243,0.65,2.45,9.09,31.64,0.65,2.66,11.96,52.61,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:08:00Z,lighter,SOL,SOL,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:08:00Z,asterdex,SOL,SOLUSDT,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:08:00Z,binance,SOL,SOLUSDT,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:08:00Z,bybit,SOL,SOLUSDT,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:08:00Z,hyperliquid,XRP,XRP,1,1,,2026-02-12T22:08:00Z,1.35315,1.3531,1.3532,0.0001,0.739016,0.41,2.18,3.3,10.54,0.37,0.37,0.52,13.44,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:08:00Z,dydx,XRP,XRP-USD,1,1,,2026-02-12T22:08:00Z,1.3523,1.3521,1.3525,0.0004,2.957924,1.5,8.68,14.15,56.51,1.5,3.79,5.91,24.92,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:08:00Z,lighter,XRP,XRP,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:08:00Z,asterdex,XRP,XRPUSDT,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:08:00Z,binance,XRP,XRPUSDT,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:08:00Z,bybit,XRP,XRPUSDT,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:08:00Z,hyperliquid,HYPE,HYPE,1,1,,2026-02-12T22:08:00Z,29.8975,29.895,29.9,0.005,1.672381,0.84,1.6,9.22,20.25,0.84,0.84,4.03,24.74,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,4,4]",false,
+2026-02-12T22:08:00Z,dydx,HYPE,HYPE-USD,1,1,,2026-02-12T22:08:00Z,29.936,29.93,29.942,0.012,4.008552,14.75,17.89,113.54,349.37,2,13.79,59.6,212.04,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:08:00Z,lighter,HYPE,HYPE,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:08:00Z,asterdex,HYPE,HYPEUSDT,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:08:00Z,binance,HYPE,HYPEUSDT,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:08:00Z,bybit,HYPE,HYPEUSDT,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:08:00Z,hyperliquid,BONK,kBONK,1,1,,2026-02-12T22:08:00Z,0.005963,0.005962,0.005964,0.000002,3.354016,4.9,5.02,10.95,110,1.68,3.79,10.9,111.56,true,true,true,true,true,true,true,true,1000000,1000000,true,3,"[5,5,5,3]",false,
+2026-02-12T22:08:00Z,dydx,BONK,BONK-USD,1,1,,2026-02-12T22:08:00Z,0.000006,0.000006,0.000006,0,0,-50,-36.18,-24.96,173.3,66.67,70.84,90.65,301.68,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:08:00Z,lighter,BONK,1000BONK,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:08:00Z,asterdex,BONK,1000BONKUSDT,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:08:00Z,binance,BONK,1000BONKUSDT,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:08:00Z,bybit,BONK,1000BONKUSDT,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:08:00Z,hyperliquid,PAXG,PAXG,1,1,,2026-02-12T22:08:00Z,4930.45,4930.4,4930.5,0.1,0.202821,0.1,1.47,3.23,9.88,0.1,0.49,2.36,8.84,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:08:00Z,dydx,PAXG,PAXG-USD,1,1,,2026-02-12T22:08:00Z,4925.5,4921,4930,9,18.272257,9.14,10.15,22.93,641.07,9.14,9.93,22.83,674.34,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:08:00Z,lighter,PAXG,PAXG,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:08:00Z,binance,PAXG,PAXGUSDT,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:08:00Z,bybit,PAXG,PAXGUSDT,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:08:00Z,hyperliquid,ZEC,ZEC,1,1,,2026-02-12T22:08:00Z,230.335,230.33,230.34,0.01,0.43415,0.22,4.14,8.83,25.62,0.22,0.22,2.28,29.68,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:08:00Z,dydx,ZEC,ZEC-USD,1,1,,2026-02-12T22:08:00Z,230.46,230.35,230.57,0.22,9.546125,17.49,17.76,30.25,601.69,4.77,6.62,16.44,620.44,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:08:00Z,lighter,ZEC,ZEC,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:08:00Z,asterdex,ZEC,ZECUSDT,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:08:00Z,binance,ZEC,ZECUSDT,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:08:00Z,bybit,ZEC,ZECUSDT,1,0,,2026-02-12T22:08:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:09:00Z,hyperliquid,BTC,BTC,1,1,,2026-02-12T22:09:00Z,65785.5,65785,65786,1,0.152009,0.08,0.08,0.08,0.23,0.19,0.22,0.55,1.32,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T22:09:00Z,dydx,BTC,BTC-USD,1,1,,2026-02-12T22:09:00Z,65763.5,65758,65769,11,1.67266,0.84,0.9,2.1,10.54,0.84,0.92,1.77,5.29,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:09:00Z,lighter,BTC,BTC,1,0,,2026-02-12T22:09:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:09:00Z,asterdex,BTC,BTCUSDT,1,1,1770934200129,2026-02-12T22:09:00Z,65787.75,65787.7,65787.8,0.1,0.0152,0.01,0.01,0.01,0.72,0.01,0.01,0.07,0.54,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:09:00Z,binance,BTC,BTCUSDT,1,0,,2026-02-12T22:09:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:09:00Z,bybit,BTC,BTCUSDT,1,0,,2026-02-12T22:09:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:09:00Z,hyperliquid,ETH,ETH,1,1,,2026-02-12T22:09:00Z,1923.15,1923.1,1923.2,0.1,0.51998,0.26,0.26,0.26,0.26,0.65,1.82,2.46,3.37,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T22:09:00Z,dydx,ETH,ETH-USD,1,1,,2026-02-12T22:09:00Z,1922.85,1922.8,1922.9,0.1,0.520061,0.26,1.17,4.85,14.19,0.26,0.54,3.12,9.42,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:09:00Z,lighter,ETH,ETH,1,0,,2026-02-12T22:09:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:09:00Z,asterdex,ETH,ETHUSDT,1,1,1770934200614,2026-02-12T22:09:00Z,1922.75,1922.7,1922.8,0.1,0.520088,0.26,0.26,0.26,2.16,0.26,0.42,0.74,2.17,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:09:00Z,binance,ETH,ETHUSDT,1,0,,2026-02-12T22:09:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:09:00Z,bybit,ETH,ETHUSDT,1,0,,2026-02-12T22:09:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:09:00Z,hyperliquid,SOL,SOL,1,1,,2026-02-12T22:09:00Z,77.3175,77.317,77.318,0.001,0.129337,0.06,0.06,1,4.17,0.06,0.06,0.25,3.69,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:09:00Z,dydx,SOL,SOL-USD,1,1,,2026-02-12T22:09:00Z,77.325,77.32,77.33,0.01,1.293243,0.65,3.6,12.36,35.77,0.65,1.85,4.24,8.98,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:09:00Z,lighter,SOL,SOL,1,0,,2026-02-12T22:09:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:09:00Z,asterdex,SOL,SOLUSDT,1,1,1770934200588,2026-02-12T22:09:00Z,77.315,77.31,77.32,0.01,1.29341,0.65,0.65,1.36,5.86,0.65,0.65,0.65,4.98,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:09:00Z,binance,SOL,SOLUSDT,1,0,,2026-02-12T22:09:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:09:00Z,bybit,SOL,SOLUSDT,1,0,,2026-02-12T22:09:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:09:00Z,hyperliquid,XRP,XRP,1,1,,2026-02-12T22:09:00Z,1.35325,1.3532,1.3533,0.0001,0.738962,0.37,0.37,1.92,10.08,0.37,0.37,2.24,14.31,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:09:00Z,dydx,XRP,XRP-USD,1,1,,2026-02-12T22:09:00Z,1.3522,1.3519,1.3525,0.0006,4.437213,2.24,10.26,14.39,58.56,2.22,3.25,6.77,10.59,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:09:00Z,lighter,XRP,XRP,1,0,,2026-02-12T22:09:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:09:00Z,asterdex,XRP,XRPUSDT,1,1,1770934200731,2026-02-12T22:09:00Z,1.35325,1.3532,1.3533,0.0001,0.738962,0.78,1.28,2.77,12.46,0.37,0.37,0.88,8.34,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:09:00Z,binance,XRP,XRPUSDT,1,0,,2026-02-12T22:09:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:09:00Z,bybit,XRP,XRPUSDT,1,0,,2026-02-12T22:09:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:09:00Z,hyperliquid,HYPE,HYPE,1,1,,2026-02-12T22:09:00Z,29.8885,29.888,29.889,0.001,0.334577,0.17,1.31,5.79,20.6,0.17,0.53,5.57,20.48,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,4,4]",false,
+2026-02-12T22:09:00Z,dydx,HYPE,HYPE-USD,1,1,,2026-02-12T22:09:00Z,29.9495,29.93,29.969,0.039,13.02192,6.58,12.11,73.25,334.99,9.83,20.63,64.42,212.77,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:09:00Z,lighter,HYPE,HYPE,1,0,,2026-02-12T22:09:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:09:00Z,asterdex,HYPE,HYPEUSDT,1,1,1770934200698,2026-02-12T22:09:00Z,29.9005,29.9,29.901,0.001,0.334443,0.17,0.3,1.68,290.75,0.17,2.21,4.43,170.38,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:09:00Z,binance,HYPE,HYPEUSDT,1,0,,2026-02-12T22:09:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:09:00Z,bybit,HYPE,HYPEUSDT,1,0,,2026-02-12T22:09:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:09:00Z,hyperliquid,BONK,kBONK,1,1,,2026-02-12T22:09:00Z,0.005964,0.005962,0.005965,0.000003,5.030181,1.68,4.28,10.02,100.1,3.35,4.63,12.47,109.95,true,true,true,true,true,true,true,true,1000000,1000000,true,3,"[5,5,5,3]",false,
+2026-02-12T22:09:00Z,dydx,BONK,BONK-USD,1,1,,2026-02-12T22:09:00Z,0.000006,0.000006,0.000006,0,0,-46.03,-36.52,-25.11,201.54,66.67,70.84,90.29,346.63,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:09:00Z,lighter,BONK,1000BONK,1,0,,2026-02-12T22:09:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:09:00Z,asterdex,BONK,1000BONKUSDT,1,1,1770934200619,2026-02-12T22:09:00Z,0.005964,0.005963,0.005964,0.000001,1.676727,0.58,5.77,35.96,35.96,1.68,7.97,266.76,266.76,true,true,false,false,true,true,false,false,25515.42,25981.35,false,,,false,
+2026-02-12T22:09:00Z,binance,BONK,1000BONKUSDT,1,0,,2026-02-12T22:09:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:09:00Z,bybit,BONK,1000BONKUSDT,1,0,,2026-02-12T22:09:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:09:00Z,hyperliquid,PAXG,PAXG,1,1,,2026-02-12T22:09:00Z,4931.85,4931.8,4931.9,0.1,0.202764,0.1,1.73,3.56,10.97,0.1,0.29,1.74,7.25,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:09:00Z,dydx,PAXG,PAXG-USD,1,1,,2026-02-12T22:09:00Z,4927,4923,4931,8,16.237061,8.12,9.13,21.91,640.16,9.02,10.83,23.83,674.55,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:09:00Z,lighter,PAXG,PAXG,1,0,,2026-02-12T22:09:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:09:00Z,binance,PAXG,PAXGUSDT,1,0,,2026-02-12T22:09:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:09:00Z,bybit,PAXG,PAXGUSDT,1,0,,2026-02-12T22:09:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:09:00Z,hyperliquid,ZEC,ZEC,1,1,,2026-02-12T22:09:00Z,230.405,230.4,230.41,0.01,0.434018,0.22,1.76,6.09,25.96,0.98,2.27,5.07,29.35,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:09:00Z,dydx,ZEC,ZEC-USD,1,1,,2026-02-12T22:09:00Z,230.71,230.52,230.9,0.38,16.470894,8.24,9.22,21.62,585.46,8.24,9.21,21.65,617.93,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:09:00Z,lighter,ZEC,ZEC,1,0,,2026-02-12T22:09:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:09:00Z,asterdex,ZEC,ZECUSDT,1,1,1770934200639,2026-02-12T22:09:00Z,230.375,230.37,230.38,0.01,0.434075,0.22,0.99,5.11,1549.26,0.22,0.42,6.61,4636.62,true,true,true,false,true,true,true,false,886219.42,849418.16,false,,,false,
+2026-02-12T22:09:00Z,binance,ZEC,ZECUSDT,1,0,,2026-02-12T22:09:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:09:00Z,bybit,ZEC,ZECUSDT,1,0,,2026-02-12T22:09:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:10:00Z,hyperliquid,BTC,BTC,1,1,,2026-02-12T22:10:00Z,65780.5,65780,65781,1,0.152021,0.56,1.9,2.77,3.63,0.08,0.08,0.08,0.08,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:10:00Z,dydx,BTC,BTC-USD,1,1,,2026-02-12T22:10:00Z,65764.5,65758,65771,13,1.97675,0.99,0.99,1.61,8.12,0.99,1.21,2.57,5.74,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:10:00Z,lighter,BTC,BTC,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:10:00Z,asterdex,BTC,BTCUSDT,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:10:00Z,binance,BTC,BTCUSDT,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:10:00Z,bybit,BTC,BTCUSDT,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:10:00Z,hyperliquid,ETH,ETH,1,1,,2026-02-12T22:10:00Z,1922.85,1922.8,1922.9,0.1,0.520061,1.28,1.76,2.25,3.63,0.26,0.26,0.26,0.26,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T22:10:00Z,dydx,ETH,ETH-USD,1,1,,2026-02-12T22:10:00Z,1922.95,1922.9,1923,0.1,0.520034,0.26,1,3.55,7.26,0.26,0.98,3.3,8.17,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:10:00Z,lighter,ETH,ETH,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:10:00Z,asterdex,ETH,ETHUSDT,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:10:00Z,binance,ETH,ETHUSDT,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:10:00Z,bybit,ETH,ETHUSDT,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:10:00Z,hyperliquid,SOL,SOL,1,1,,2026-02-12T22:10:00Z,77.2805,77.28,77.281,0.001,0.129399,0.06,0.06,1.03,3.85,0.06,0.06,0.71,5.3,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:10:00Z,dydx,SOL,SOL-USD,1,1,,2026-02-12T22:10:00Z,77.275,77.27,77.28,0.01,1.29408,0.65,2.69,13.36,37.05,0.65,1,6.15,33.38,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:10:00Z,lighter,SOL,SOL,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:10:00Z,asterdex,SOL,SOLUSDT,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:10:00Z,binance,SOL,SOLUSDT,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:10:00Z,bybit,SOL,SOLUSDT,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:10:00Z,hyperliquid,XRP,XRP,1,1,,2026-02-12T22:10:00Z,1.35335,1.3533,1.3534,0.0001,0.738907,0.37,0.37,1.55,11.23,0.37,0.37,1.4,14.7,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:10:00Z,dydx,XRP,XRP-USD,1,1,,2026-02-12T22:10:00Z,1.3522,1.3519,1.3525,0.0006,4.437213,2.24,6.06,9.46,51.4,2.25,3.91,5.8,9.87,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:10:00Z,lighter,XRP,XRP,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:10:00Z,asterdex,XRP,XRPUSDT,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:10:00Z,binance,XRP,XRPUSDT,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:10:00Z,bybit,XRP,XRPUSDT,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:10:00Z,hyperliquid,HYPE,HYPE,1,1,,2026-02-12T22:10:00Z,29.9085,29.908,29.909,0.001,0.334353,0.17,0.94,9.46,22.08,0.17,0.17,1.88,19.15,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,4,4]",false,
+2026-02-12T22:10:00Z,dydx,HYPE,HYPE-USD,1,1,,2026-02-12T22:10:00Z,29.97,29.95,29.99,0.04,13.34668,7.51,20.59,118.9,343.03,9.99,21.45,68.78,219.38,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:10:00Z,lighter,HYPE,HYPE,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:10:00Z,asterdex,HYPE,HYPEUSDT,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:10:00Z,binance,HYPE,HYPEUSDT,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:10:00Z,bybit,HYPE,HYPEUSDT,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:10:00Z,hyperliquid,BONK,kBONK,1,1,,2026-02-12T22:10:00Z,0.005969,0.005968,0.00597,0.000002,3.350645,1.68,4.21,10.85,108.32,1.68,4.25,12.31,103.76,true,true,true,true,true,true,true,true,1000000,1000000,true,3,"[5,5,5,3]",false,
+2026-02-12T22:10:00Z,dydx,BONK,BONK-USD,1,1,,2026-02-12T22:10:00Z,0.000006,0.000006,0.000006,0,0,-41.67,-34.83,-23.53,216.19,66.67,66.67,75.56,336.04,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:10:00Z,lighter,BONK,1000BONK,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:10:00Z,asterdex,BONK,1000BONKUSDT,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:10:00Z,binance,BONK,1000BONKUSDT,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:10:00Z,bybit,BONK,1000BONKUSDT,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:10:00Z,hyperliquid,PAXG,PAXG,1,1,,2026-02-12T22:10:00Z,4932.45,4932.4,4932.5,0.1,0.202739,0.1,0.96,3.17,9.97,0.1,0.43,1.35,7.76,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:10:00Z,dydx,PAXG,PAXG-USD,1,1,,2026-02-12T22:10:00Z,4927.5,4923,4932,9,18.26484,9.13,10.15,21.81,640.49,9.13,9.92,22.82,673.79,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:10:00Z,lighter,PAXG,PAXG,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:10:00Z,binance,PAXG,PAXGUSDT,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:10:00Z,bybit,PAXG,PAXGUSDT,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:10:00Z,hyperliquid,ZEC,ZEC,1,1,,2026-02-12T22:10:00Z,230.435,230.41,230.46,0.05,2.169809,1.52,2.55,6.75,29.15,1.08,1.58,4.92,27.88,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:10:00Z,dydx,ZEC,ZEC-USD,1,1,,2026-02-12T22:10:00Z,230.75,230.56,230.94,0.38,16.468039,8.23,9.22,21.85,585.47,8.23,8.76,21.55,617.95,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:10:00Z,lighter,ZEC,ZEC,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:10:00Z,asterdex,ZEC,ZECUSDT,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:10:00Z,binance,ZEC,ZECUSDT,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:10:00Z,bybit,ZEC,ZECUSDT,1,0,,2026-02-12T22:10:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:11:00Z,hyperliquid,BTC,BTC,1,1,,2026-02-12T22:11:00Z,65857.5,65857,65858,1,0.151843,0.9,1.19,2.13,2.96,0.08,0.08,0.08,0.08,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T22:11:00Z,dydx,BTC,BTC-USD,1,1,,2026-02-12T22:11:00Z,65846.5,65841,65852,11,1.670552,0.84,0.9,2.19,8.08,0.84,1.03,2.04,5.2,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:11:00Z,lighter,BTC,BTC,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:11:00Z,asterdex,BTC,BTCUSDT,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:11:00Z,binance,BTC,BTCUSDT,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:11:00Z,bybit,BTC,BTCUSDT,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:11:00Z,hyperliquid,ETH,ETH,1,1,,2026-02-12T22:11:00Z,1924.85,1924.8,1924.9,0.1,0.519521,0.26,1.08,1.86,3.11,0.26,0.26,0.26,0.26,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T22:11:00Z,dydx,ETH,ETH-USD,1,1,,2026-02-12T22:11:00Z,1925.05,1925,1925.1,0.1,0.519467,0.26,1.01,2.58,6.23,0.26,0.88,3.72,8.91,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:11:00Z,lighter,ETH,ETH,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:11:00Z,asterdex,ETH,ETHUSDT,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:11:00Z,binance,ETH,ETHUSDT,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:11:00Z,bybit,ETH,ETHUSDT,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:11:00Z,hyperliquid,SOL,SOL,1,1,,2026-02-12T22:11:00Z,77.3695,77.369,77.37,0.001,0.12925,0.06,0.27,1.53,5.69,0.06,0.06,0.06,3.29,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:11:00Z,dydx,SOL,SOL-USD,1,1,,2026-02-12T22:11:00Z,77.375,77.37,77.38,0.01,1.292407,0.65,3.49,15.67,38.15,0.65,1.6,6.96,35.82,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:11:00Z,lighter,SOL,SOL,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:11:00Z,asterdex,SOL,SOLUSDT,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:11:00Z,binance,SOL,SOLUSDT,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:11:00Z,bybit,SOL,SOLUSDT,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:11:00Z,hyperliquid,XRP,XRP,1,1,,2026-02-12T22:11:00Z,1.35455,1.3545,1.3546,0.0001,0.738253,0.37,0.68,2.5,7.57,0.37,0.37,1.7,13.8,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:11:00Z,dydx,XRP,XRP-USD,1,1,,2026-02-12T22:11:00Z,1.35375,1.3536,1.3539,0.0003,2.216066,1.14,3.77,9.55,55.37,1.91,5.77,8.78,30.13,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:11:00Z,lighter,XRP,XRP,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:11:00Z,asterdex,XRP,XRPUSDT,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:11:00Z,binance,XRP,XRPUSDT,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:11:00Z,bybit,XRP,XRPUSDT,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:11:00Z,hyperliquid,HYPE,HYPE,1,1,,2026-02-12T22:11:00Z,29.9605,29.96,29.961,0.001,0.333773,0.17,0.98,4.48,19.64,0.17,0.17,2.1,20.48,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,4,4]",false,
+2026-02-12T22:11:00Z,dydx,HYPE,HYPE-USD,1,1,,2026-02-12T22:11:00Z,29.9995,29.99,30.009,0.019,6.333439,17.15,30.61,119.86,353.44,3.17,13.73,62.46,227.28,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:11:00Z,lighter,HYPE,HYPE,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:11:00Z,asterdex,HYPE,HYPEUSDT,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:11:00Z,binance,HYPE,HYPEUSDT,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:11:00Z,bybit,HYPE,HYPEUSDT,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:11:00Z,hyperliquid,BONK,kBONK,1,1,,2026-02-12T22:11:00Z,0.005975,0.005974,0.005976,0.000002,3.34728,1.67,3.88,10.36,98.19,1.67,3.59,11.72,116.07,true,true,true,true,true,true,true,true,1000000,1000000,true,3,"[5,5,5,3]",false,
+2026-02-12T22:11:00Z,dydx,BONK,BONK-USD,1,1,,2026-02-12T22:11:00Z,0.000006,0.000006,0.000006,0,0,-28.33,-19.18,-8.38,242.82,50,54.18,73.32,363.55,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:11:00Z,lighter,BONK,1000BONK,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:11:00Z,asterdex,BONK,1000BONKUSDT,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:11:00Z,binance,BONK,1000BONKUSDT,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:11:00Z,bybit,BONK,1000BONKUSDT,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:11:00Z,hyperliquid,PAXG,PAXG,1,1,,2026-02-12T22:11:00Z,4933.35,4933.3,4933.4,0.1,0.202702,0.1,0.63,3.07,9.78,0.1,0.91,2.46,8.87,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:11:00Z,dydx,PAXG,PAXG-USD,1,1,,2026-02-12T22:11:00Z,4928.5,4924,4933,9,18.261134,9.13,10.15,22.92,640.83,9.13,9.92,22.81,674.36,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:11:00Z,lighter,PAXG,PAXG,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:11:00Z,binance,PAXG,PAXGUSDT,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:11:00Z,bybit,PAXG,PAXGUSDT,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:11:00Z,hyperliquid,ZEC,ZEC,1,1,,2026-02-12T22:11:00Z,230.915,230.9,230.93,0.03,1.299179,0.87,2.41,6.1,22.68,1.1,1.86,6.13,34.41,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:11:00Z,dydx,ZEC,ZEC-USD,1,1,,2026-02-12T22:11:00Z,231.06,230.98,231.14,0.16,6.924608,12.76,13.93,26.57,589.23,3.46,4.44,17.07,613.84,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:11:00Z,lighter,ZEC,ZEC,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429
+2026-02-12T22:11:00Z,asterdex,ZEC,ZECUSDT,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418
+2026-02-12T22:11:00Z,binance,ZEC,ZECUSDT,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451
+2026-02-12T22:11:00Z,bybit,ZEC,ZECUSDT,1,0,,2026-02-12T22:11:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403
+2026-02-12T22:12:00Z,hyperliquid,BTC,BTC,4,4,,2026-02-12T22:12:00Z,65821,65820.5,65821.5,1,0.151927,0.08,0.08,0.08,0.345,0.17,0.24,0.605,1.52,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T22:12:00Z,dydx,BTC,BTC-USD,4,4,,2026-02-12T22:12:00Z,65798,65790.5,65805.5,15.5,2.3553034999999998,1.175,1.22,2.17,9.09,1.175,1.375,2.62,5.62,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:12:00Z,lighter,BTC,BTC,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429; http_error: Market list HTTP 429; http_error: Market list HTTP 429
+2026-02-12T22:12:00Z,asterdex,BTC,BTCUSDT,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418; http_error: HTTP 418; http_error: HTTP 418
+2026-02-12T22:12:00Z,binance,BTC,BTCUSDT,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451; http_error: HTTP 451; http_error: HTTP 451
+2026-02-12T22:12:00Z,bybit,BTC,BTCUSDT,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403; http_error: HTTP 403; http_error: HTTP 403
+2026-02-12T22:12:00Z,hyperliquid,ETH,ETH,4,4,,2026-02-12T22:12:00Z,1924.1,1924.05,1924.15,0.1,0.5197235,0.26,0.26,0.26,1.505,0.26,0.26,0.355,1.1400000000000001,true,true,true,true,true,true,true,true,1000000,1000000,false,5,"[5,5,5,5]",false,
+2026-02-12T22:12:00Z,dydx,ETH,ETH-USD,4,4,,2026-02-12T22:12:00Z,1924,1923.9499999999998,1924.0500000000002,0.1,0.5197505,0.26,0.855,2.4699999999999998,8.025,0.26,1.295,3.8,8.33,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:12:00Z,lighter,ETH,ETH,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429; http_error: Market list HTTP 429; http_error: Market list HTTP 429
+2026-02-12T22:12:00Z,asterdex,ETH,ETHUSDT,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418; http_error: HTTP 418; http_error: HTTP 418
+2026-02-12T22:12:00Z,binance,ETH,ETHUSDT,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451; http_error: HTTP 451; http_error: HTTP 451
+2026-02-12T22:12:00Z,bybit,ETH,ETHUSDT,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403; http_error: HTTP 403; http_error: HTTP 403
+2026-02-12T22:12:00Z,hyperliquid,SOL,SOL,4,4,,2026-02-12T22:12:00Z,77.327,77.3265,77.3275,0.001,0.129321,0.06,0.06,0.1,3.035,0.06,0.06,0.385,3.66,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:12:00Z,dydx,SOL,SOL-USD,4,4,,2026-02-12T22:12:00Z,77.325,77.32,77.33,0.01,1.293243,0.65,4.755,15.135000000000002,37.855000000000004,0.65,1.925,4.6850000000000005,14.205000000000002,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:12:00Z,lighter,SOL,SOL,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429; http_error: Market list HTTP 429; http_error: Market list HTTP 429
+2026-02-12T22:12:00Z,asterdex,SOL,SOLUSDT,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418; http_error: HTTP 418; http_error: HTTP 418
+2026-02-12T22:12:00Z,binance,SOL,SOLUSDT,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451; http_error: HTTP 451; http_error: HTTP 451
+2026-02-12T22:12:00Z,bybit,SOL,SOLUSDT,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403; http_error: HTTP 403; http_error: HTTP 403
+2026-02-12T22:12:00Z,hyperliquid,XRP,XRP,4,4,,2026-02-12T22:12:00Z,1.354,1.35395,1.35405,0.0001,0.7385525,0.37,0.37,2.23,8.204999999999998,0.37,0.515,2.9699999999999998,15.23,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:12:00Z,dydx,XRP,XRP-USD,4,4,,2026-02-12T22:12:00Z,1.35305,1.35285,1.35325,0.0005,3.695983,1.88,4.4399999999999995,11.145,54.239999999999995,1.8650000000000002,4.21,8.355,32.75,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:12:00Z,lighter,XRP,XRP,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429; http_error: Market list HTTP 429; http_error: Market list HTTP 429
+2026-02-12T22:12:00Z,asterdex,XRP,XRPUSDT,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418; http_error: HTTP 418; http_error: HTTP 418
+2026-02-12T22:12:00Z,binance,XRP,XRPUSDT,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451; http_error: HTTP 451; http_error: HTTP 451
+2026-02-12T22:12:00Z,bybit,XRP,XRPUSDT,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403; http_error: HTTP 403; http_error: HTTP 403
+2026-02-12T22:12:00Z,hyperliquid,HYPE,HYPE,4,4,,2026-02-12T22:12:00Z,29.9755,29.975,29.976,0.001,0.33360599999999996,0.17,0.495,4.135,18.665,0.17,0.17,2.1950000000000003,20.665,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,4,4]",false,
+2026-02-12T22:12:00Z,dydx,HYPE,HYPE-USD,4,4,,2026-02-12T22:12:00Z,30.03225,30.009999999999998,30.054499999999997,0.035,11.648085,8.690000000000001,19.15,110.88499999999999,351.67499999999995,9.04,19.84,66.985,231.05,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:12:00Z,lighter,HYPE,HYPE,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429; http_error: Market list HTTP 429; http_error: Market list HTTP 429
+2026-02-12T22:12:00Z,asterdex,HYPE,HYPEUSDT,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418; http_error: HTTP 418; http_error: HTTP 418
+2026-02-12T22:12:00Z,binance,HYPE,HYPEUSDT,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451; http_error: HTTP 451; http_error: HTTP 451
+2026-02-12T22:12:00Z,bybit,HYPE,HYPEUSDT,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403; http_error: HTTP 403; http_error: HTTP 403
+2026-02-12T22:12:00Z,hyperliquid,BONK,kBONK,4,4,,2026-02-12T22:12:00Z,0.005971499999999999,0.0059705,0.0059725,0.000002,3.3492425,1.67,3.335,10.195,91.52000000000001,1.67,3.9499999999999997,11.42,118.405,true,true,true,true,true,true,true,true,1000000,1000000,true,3,"[5,5,5,3]",false,
+2026-02-12T22:12:00Z,dydx,BONK,BONK-USD,4,4,,2026-02-12T22:12:00Z,0.000006,0.000006,0.000006,0,0,-35.835,-28.015,-12.195,187.605,58.335,60.425,74.455,272.80999999999995,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:12:00Z,lighter,BONK,1000BONK,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429; http_error: Market list HTTP 429; http_error: Market list HTTP 429
+2026-02-12T22:12:00Z,asterdex,BONK,1000BONKUSDT,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418; http_error: HTTP 418; http_error: HTTP 418
+2026-02-12T22:12:00Z,binance,BONK,1000BONKUSDT,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451; http_error: HTTP 451; http_error: HTTP 451
+2026-02-12T22:12:00Z,bybit,BONK,1000BONKUSDT,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403; http_error: HTTP 403; http_error: HTTP 403
+2026-02-12T22:12:00Z,hyperliquid,PAXG,PAXG,4,4,,2026-02-12T22:12:00Z,4932.2,4932.15,4932.25,0.1,0.2027495,0.1,0.76,2.98,10.865,0.1,1.1400000000000001,2.245,7.6850000000000005,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:12:00Z,dydx,PAXG,PAXG-USD,4,4,,2026-02-12T22:12:00Z,4927.5,4923.5,4931.5,8,16.237061,8.12,9.13,21.91,1052.1799999999998,9.02,10.825,23.32,933.115,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:12:00Z,lighter,PAXG,PAXG,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429; http_error: Market list HTTP 429; http_error: Market list HTTP 429
+2026-02-12T22:12:00Z,binance,PAXG,PAXGUSDT,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451; http_error: HTTP 451; http_error: HTTP 451
+2026-02-12T22:12:00Z,bybit,PAXG,PAXGUSDT,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403; http_error: HTTP 403; http_error: HTTP 403
+2026-02-12T22:12:00Z,hyperliquid,ZEC,ZEC,4,4,,2026-02-12T22:12:00Z,230.74,230.73000000000002,230.75,0.03,1.2996015,0.87,2.395,6.29,29.134999999999998,1.0550000000000002,1.87,5.51,27.994999999999997,true,true,true,true,true,true,true,true,1000000,1000000,true,4,"[5,5,5,4]",false,
+2026-02-12T22:12:00Z,dydx,ZEC,ZEC-USD,4,4,,2026-02-12T22:12:00Z,230.9875,230.83499999999998,231.125,0.28500000000000003,12.337041000000001,10.190000000000001,11.25,23.884999999999998,588.37,6.165000000000001,7.1499999999999995,19.075,616.35,true,true,true,true,true,true,true,true,1000000,1000000,false,,,false,
+2026-02-12T22:12:00Z,lighter,ZEC,ZEC,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: Market list HTTP 429; http_error: Market list HTTP 429; http_error: Market list HTTP 429
+2026-02-12T22:12:00Z,asterdex,ZEC,ZECUSDT,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 418; http_error: HTTP 418; http_error: HTTP 418
+2026-02-12T22:12:00Z,binance,ZEC,ZECUSDT,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 451; http_error: HTTP 451; http_error: HTTP 451
+2026-02-12T22:12:00Z,bybit,ZEC,ZECUSDT,4,0,,2026-02-12T22:12:00Z,,,,,,,,,,,,,,,,,,,,,,,,false,,,false,http_error: HTTP 403; http_error: HTTP 403; http_error: HTTP 403

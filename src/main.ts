@@ -107,6 +107,7 @@ async function runDaemon(config: IngestionConfig): Promise<void> {
 
 async function runOneMinute(config: IngestionConfig): Promise<void> {
   const cycleStartMs = floorToMinute(Date.now());
+  const nextMinuteStartMs = cycleStartMs + 60_000;
   const allSamples: RawSample[] = [];
   const offsets = [...config.sample_offsets_sec].sort((a, b) => a - b);
   let collectedRounds = 0;
@@ -145,6 +146,12 @@ async function runOneMinute(config: IngestionConfig): Promise<void> {
   }
 
   await runMinuteCycle(cycleStartMs, allSamples);
+
+  // Always align the loop to minute boundaries to avoid repeated same-minute cycles.
+  const sleepToNextMinuteMs = nextMinuteStartMs - Date.now();
+  if (sleepToNextMinuteMs > 0) {
+    await sleep(sleepToNextMinuteMs);
+  }
 }
 
 function floorToMinute(tsMs: number): number {

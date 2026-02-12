@@ -45,6 +45,15 @@ jobs:
       - name: Run collector (15 minutes)
         run: npx tsx src/main.ts --mode once
 
+      - name: Upload error logs artifact
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: collector-logs-${{ github.run_id }}
+          path: data/logs/**
+          if-no-files-found: ignore
+          retention-days: 14
+
       - name: Commit and push data
         env:
           DATA_PUSH_TOKEN: ${{ secrets.DATA_PUSH_TOKEN }}

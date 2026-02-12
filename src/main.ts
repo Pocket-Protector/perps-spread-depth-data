@@ -3,6 +3,7 @@ import { collectSampleRound } from './ingest/sample-engine.js';
 import { aggregateMinute } from './ingest/minute-aggregate.js';
 import { appendRows } from './storage/csv-writer.js';
 import { configureLogger, log } from './util/logger.js';
+import { getHttpProxyPrefix } from './util/http-proxy.js';
 import { minuteBucket, sleep, generateRunId } from './util/time.js';
 import type { RawSample, IngestionConfig } from './types.js';
 
@@ -166,6 +167,10 @@ async function main(): Promise<void> {
   const config = loadConfig(configPath);
 
   configureLogger(config.log_level, config.log_json, runId);
+
+  if (getHttpProxyPrefix()) {
+    log.info('HTTP proxy prefix is enabled for Binance/Bybit requests');
+  }
 
   log.info(`Run ID: ${runId}, mode: ${mode}`, {
     run_id: runId,

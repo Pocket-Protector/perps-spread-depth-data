@@ -1,6 +1,7 @@
 import type { NormalizedBook, OrderBookLevel } from '../types.js';
 import { EXCHANGE_BASE_URLS } from '../constants.js';
 import { FetchError } from '../util/errors.js';
+import { buildExchangeRequestUrl } from '../util/http-proxy.js';
 
 /**
  * Shared fetcher for Binance-compatible /fapi/v1/depth endpoints.
@@ -10,7 +11,7 @@ import { FetchError } from '../util/errors.js';
  */
 export async function fetchBinanceStyle(
   baseUrl: string,
-  exchangeName: string,
+  exchangeName: 'binance' | 'asterdex',
   symbol: string,
   depthLimit: number,
   timeoutMs: number,
@@ -19,8 +20,9 @@ export async function fetchBinanceStyle(
   const timer = setTimeout(() => controller.abort(), timeoutMs);
 
   try {
-    const url = `${baseUrl}/fapi/v1/depth?symbol=${symbol}&limit=${depthLimit}`;
-    const res = await fetch(url, { signal: controller.signal });
+    const targetUrl = `${baseUrl}/fapi/v1/depth?symbol=${symbol}&limit=${depthLimit}`;
+    const requestUrl = buildExchangeRequestUrl(exchangeName, targetUrl);
+    const res = await fetch(requestUrl, { signal: controller.signal });
 
     if (!res.ok) {
       throw new FetchError('http_error', exchangeName, `HTTP ${res.status}`, res.status);

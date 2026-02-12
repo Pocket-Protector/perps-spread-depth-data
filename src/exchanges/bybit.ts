@@ -1,6 +1,7 @@
 import type { NormalizedBook, OrderBookLevel } from '../types.js';
 import { EXCHANGE_BASE_URLS } from '../constants.js';
 import { FetchError } from '../util/errors.js';
+import { buildExchangeRequestUrl } from '../util/http-proxy.js';
 
 const BASE = EXCHANGE_BASE_URLS.bybit;
 
@@ -19,8 +20,9 @@ export async function fetchBybit(
   const timer = setTimeout(() => controller.abort(), timeoutMs);
 
   try {
-    const url = `${BASE}/v5/market/orderbook?category=linear&symbol=${symbol}&limit=${depthLimit}`;
-    const res = await fetch(url, { signal: controller.signal });
+    const targetUrl = `${BASE}/v5/market/orderbook?category=linear&symbol=${symbol}&limit=${depthLimit}`;
+    const requestUrl = buildExchangeRequestUrl('bybit', targetUrl);
+    const res = await fetch(requestUrl, { signal: controller.signal });
 
     if (!res.ok) {
       throw new FetchError('http_error', 'bybit', `HTTP ${res.status}`, res.status);

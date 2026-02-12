@@ -17,6 +17,10 @@ jobs:
   collect:
     runs-on: ubuntu-latest
     timeout-minutes: 20
+    env:
+      # Set repo/environment var HTTP_PROXY_PREFIX (preferred),
+      # or NEXT_PUBLIC_HTTP_PROXY_PREFIX for compatibility.
+      HTTP_PROXY_PREFIX: ${{ secrets.HTTP_PROXY_PREFIX || vars.HTTP_PROXY_PREFIX || vars.NEXT_PUBLIC_HTTP_PROXY_PREFIX }}
 
     # Kill switch — set COLLECT_ENABLED to "false" in repo variables to stop
     if: vars.COLLECT_ENABLED != 'false'

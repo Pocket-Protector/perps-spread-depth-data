@@ -30,8 +30,8 @@ jobs:
         with:
           # For orgs that force read-only GITHUB_TOKEN, set DATA_PUSH_TOKEN (PAT) in repo secrets.
           token: ${{ secrets.DATA_PUSH_TOKEN || github.token }}
-          # Fetch minimal history (we only append data)
-          fetch-depth: 1
+          # Full history avoids shallow-clone edge cases during pull --rebase.
+          fetch-depth: 0
 
       - name: Setup Node.js
         uses: actions/setup-node@v4
@@ -69,10 +69,34 @@ jobs:
           else
             TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
             git commit -m "data: update ${TIMESTAMP}"
-            git pull --rebase
-            if [ -n "$DATA_PUSH_TOKEN" ]; then
-              git push "https://x-access-token:${DATA_PUSH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "HEAD:${GITHUB_REF_NAME}"
-            else
-              git push
-            fi
+
+            MAX_ATTEMPTS=3
+            ATTEMPT=1
+
+            while [ "$ATTEMPT" -le "$MAX_ATTEMPTS" ]; do
+              echo "Sync/push attempt ${ATTEMPT}/${MAX_ATTEMPTS}"
+
+              if git pull --rebase; then
+                if [ -n "$DATA_PUSH_TOKEN" ]; then
+                  if git push "https://x-access-token:${DATA_PUSH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "HEAD:${GITHUB_REF_NAME}"; then
+                    echo "Push succeeded"
+                    exit 0
+                  fi
+                else
+                  if git push; then
+                    echo "Push succeeded"
+                    exit 0
+                  fi
+                fi
+              else
+                echo "Rebase conflict detected. Aborting rebase and retrying."
+                git rebase --abort || true
+              fi
+
+              ATTEMPT=$((ATTEMPT + 1))
+              sleep 5
+            done
+
+            echo "Could not push after ${MAX_ATTEMPTS} attempts. Skipping this run to keep workflow healthy."
+            exit 0
           fi

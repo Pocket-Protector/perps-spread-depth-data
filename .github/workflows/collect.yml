@@ -28,6 +28,8 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
         with:
+          # For orgs that force read-only GITHUB_TOKEN, set DATA_PUSH_TOKEN (PAT) in repo secrets.
+          token: ${{ secrets.DATA_PUSH_TOKEN || github.token }}
           # Fetch minimal history (we only append data)
           fetch-depth: 1
 
@@ -44,6 +46,8 @@ jobs:
         run: npx tsx src/main.ts --mode once
 
       - name: Commit and push data
+        env:
+          DATA_PUSH_TOKEN: ${{ secrets.DATA_PUSH_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
@@ -57,5 +61,9 @@ jobs:
             TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
             git commit -m "data: update ${TIMESTAMP}"
             git pull --rebase
-            git push
+            if [ -n "$DATA_PUSH_TOKEN" ]; then
+              git push "https://x-access-token:${DATA_PUSH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" "HEAD:${GITHUB_REF_NAME}"
+            else
+              git push
+            fi
           fi

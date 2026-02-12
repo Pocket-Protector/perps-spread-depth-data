@@ -1,0 +1,61 @@
+name: Collect Liquidity Data
+
+on:
+  # Automated cadence (no chaining required)
+  schedule:
+    - cron: '*/30 * * * *'
+
+  # Manual trigger
+  workflow_dispatch:
+
+# Prevent overlapping runs
+concurrency:
+  group: liquidity-collector
+  cancel-in-progress: false
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    # Kill switch — set COLLECT_ENABLED to "false" in repo variables to stop
+    if: vars.COLLECT_ENABLED != 'false'
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+        with:
+          # Fetch minimal history (we only append data)
+          fetch-depth: 1
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run collector (15 minutes)
+        run: npx tsx src/main.ts --mode once
+
+      - name: Commit and push data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add data/*.csv
+
+          # Only commit if there are changes
+          if git diff --cached --quiet; then
+            echo "No new data to commit"
+          else
+            TIMESTAMP=$(date -u +"%Y-%m-%d %H:%M UTC")
+            git commit -m "data: update ${TIMESTAMP}"
+            git pull --rebase
+            git push
+          fi

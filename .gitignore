@@ -4,3 +4,6 @@ dist/
 .env
 data/logs/
 info.md
+.claude/
+supabase_plan.md
+supabase/.temp/

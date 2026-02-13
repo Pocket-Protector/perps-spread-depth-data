@@ -1,11 +1,11 @@
-name: Collect Liquidity Data
+name: Collect Liquidity Data (DISABLED — migrated to Supabase Edge Function)
 
 on:
-  # Automated cadence (no chaining required)
-  schedule:
-    - cron: '*/30 * * * *'
+  # DISABLED: Ingestion now runs via Supabase Edge Function + pg_cron (every minute).
+  # schedule:
+  #   - cron: '*/30 * * * *'
 
-  # Manual trigger
+  # Keep manual trigger for emergencies only
   workflow_dispatch:
 
 # Prevent overlapping runs

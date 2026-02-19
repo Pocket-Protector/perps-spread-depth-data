@@ -128,23 +128,28 @@ export function analyzeBook(
 ): LiquidityAnalysis {
   const bestBid = book.bids[0].price;
   const bestAsk = book.asks[0].price;
-  const midPrice = round((bestBid + bestAsk) / 2, 6);
-  const spreadUsd = round(bestAsk - bestBid, 6);
-  const spreadBps = round((spreadUsd / midPrice) * 10_000, 6);
+
+  // Use full float precision for all calculations; round only for stored output.
+  const rawMid      = (bestBid + bestAsk) / 2;
+  const rawSpreadUsd = bestAsk - bestBid;
+
+  const midPrice  = round(rawMid, 10);
+  const spreadUsd = round(rawSpreadUsd, 10);
+  const spreadBps = round((rawSpreadUsd / rawMid) * 10_000, 2);
 
   const asks = tiers.map((notional) =>
-    computeSlippage(book.asks, notional, midPrice, 'ask'),
+    computeSlippage(book.asks, notional, rawMid, 'ask'),
   );
   const bids = tiers.map((notional) =>
-    computeSlippage(book.bids, notional, midPrice, 'bid'),
+    computeSlippage(book.bids, notional, rawMid, 'bid'),
   );
 
   return {
     exchange,
     ticker,
     midPrice,
-    bestBid: round(bestBid, 6),
-    bestAsk: round(bestAsk, 6),
+    bestBid: round(bestBid, 10),
+    bestAsk: round(bestAsk, 10),
     spreadUsd,
     spreadBps,
     asks,
